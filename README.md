@@ -1,5 +1,24 @@
 # laboratorio-de-experimentacao-de-software
-Repo Laboratório de Experimentação de Software
+
+<div align="center">
+    <table>
+        <tr>
+         <td align="center"></td>
+        </tr> 
+        <tr>
+            <td>
+                <img alt="pucminas" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/engsoft.png?raw=true"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"></td>
+        </tr> 
+    </table>
+</div>
+
+-----
+
+# Repo Laboratório de Experimentação de Software
 
 Disciplina do curso de Engenharia de Software da PUC Minas
 
