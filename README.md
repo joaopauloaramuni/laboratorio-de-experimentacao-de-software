@@ -1,20 +1,6 @@
-# laboratorio-de-experimentacao-de-software
+-----
 
-<div align="center">
-    <table>
-        <tr>
-         <td align="center"></td>
-        </tr> 
-        <tr>
-            <td>
-                <img alt="pucminas" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/engsoft.png?raw=true"/>
-            </td>
-        </tr>
-        <tr>
-            <td align="center"></td>
-        </tr> 
-    </table>
-</div>
+<img alt="pucminas" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/FUNDOCOREUCAPA.jpg?raw=true"/>
 
 -----
 
@@ -29,3 +15,11 @@ https://link.springer.com/journal/10664
 <br>https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724
 <br>https://docs.github.com/pt/rest
 <br>https://graphql.org/learn/
+
+-----
+
+<div align="center">
+  <img width="70%" alt="pucminas" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/engsoft.png?raw=true"/>
+</div>
+
+-----
