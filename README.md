@@ -11,10 +11,17 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 2°Sem 2024
 - 1°Sem 2025
 
-https://link.springer.com/journal/10664
-<br>https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724
-<br>https://docs.github.com/pt/rest
-<br>https://graphql.org/learn/
+### Sumário:
+- [Apresentação da disciplina](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PDF)
+- [Cronograma](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/CRONOGRAMA)
+- [Laboratórios](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/LABORATÓRIOS)
+- [Projetos em Python](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS)
+
+#### Links úteis:
+- [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)
+- [Empirical Research in Software Engineering (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)
+- [Documentação GitHub REST API](https://docs.github.com/pt/rest)
+- [GraphQL - Guia de aprendizado](https://graphql.org/learn/)
 
 -----
 
