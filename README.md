@@ -11,6 +11,8 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 2°Sem 2024
 - 1°Sem 2025
 
+-----
+
 ### Sumário:
 - [Apresentação da disciplina](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PDF)
 - [Cronograma](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/CRONOGRAMA)
