@@ -16,7 +16,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 ### Sumário:
 - [Apresentação da disciplina](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PDF)
 - [Cronograma](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/CRONOGRAMA)
-- [Laboratórios](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/LABORATO%CC%81RIOS)
+- [Laboratórios](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/LABORATORIOS)
 - [Projetos em Python](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS)
 
 #### Links úteis:
