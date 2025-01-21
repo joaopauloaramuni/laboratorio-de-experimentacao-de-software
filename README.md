@@ -22,8 +22,24 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 #### Links úteis:
 - [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)
 - [Empirical Research in Software Engineering (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)
+
+##### GitHub REST API
 - [Documentação GitHub REST API](https://docs.github.com/pt/rest)
+
+##### GraphQL
 - [GraphQL - Guia de aprendizado](https://graphql.org/learn/)
+- [The GraphQL Python community](https://github.com/graphql-python)
+
+##### Pandas
+- [Documentação Oficial do Pandas](https://pandas.pydata.org/)
+- [Tutorial de Pandas - W3Schools](https://www.w3schools.com/python/pandas/default.asp)
+- [Pacote Pandas no PyPI](https://pypi.org/project/pandas/)
+
+##### Matplotlib
+- [Documentação Oficial do Matplotlib](https://matplotlib.org/)
+- [Tutorial de Matplotlib - W3Schools](https://www.w3schools.com/python/matplotlib_intro.asp)
+  - [Pyplot - W3Schools](https://www.w3schools.com/python/matplotlib_pyplot.asp)
+- [Pacote Matplotlib no PyPI](https://pypi.org/project/matplotlib/)
 
 -----
 
