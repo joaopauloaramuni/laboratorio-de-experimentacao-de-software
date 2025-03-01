@@ -42,6 +42,10 @@ Disciplina do curso de Engenharia de Software da PUC Minas
   - [Pyplot - W3Schools](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 - [Pacote Matplotlib no PyPI](https://pypi.org/project/matplotlib/)
 
+##### Openpyxl
+- [PyPi](https://pypi.org/project/openpyxl/)
+- [Documentação Oficial do OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
+
 ##### Flourish:
 - [Flourish](https://flourish.studio/)
 - [Flourish for developers](https://developers.flourish.studio/)
