@@ -42,6 +42,12 @@ Disciplina do curso de Engenharia de Software da PUC Minas
   - [Pyplot - W3Schools](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 - [Pacote Matplotlib no PyPI](https://pypi.org/project/matplotlib/)
 
+##### Flourish:
+- [Flourish](https://flourish.studio/)
+- [Flourish for developers](https://developers.flourish.studio/)
+
+Sugestão: Flourish é uma plataforma de visualização de dados que permite criar gráficos interativos, mapas e infográficos sem necessidade de programação. É amplamente utilizada para storytelling com dados, facilitando a criação de apresentações visuais impactantes.
+
 -----
 
 <div align="center">
