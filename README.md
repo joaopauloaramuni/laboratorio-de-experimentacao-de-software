@@ -45,8 +45,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 ##### Flourish:
 - [Flourish](https://flourish.studio/)
 - [Flourish for developers](https://developers.flourish.studio/)
-
-Sugestão: Flourish é uma plataforma de visualização de dados que permite criar gráficos interativos, mapas e infográficos sem necessidade de programação. É amplamente utilizada para storytelling com dados, facilitando a criação de apresentações visuais impactantes.
+- Sugestão: Flourish é uma plataforma de visualização de dados que permite criar gráficos interativos, mapas e infográficos sem necessidade de programação. É amplamente utilizada para storytelling com dados, facilitando a criação de apresentações visuais impactantes.
 
 -----
 
