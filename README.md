@@ -54,6 +54,12 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 ##### Data to Viz:
 - [Data to Viz](https://www.data-to-viz.com/)
 
+##### Code analysis tools
+- [PMD](https://pmd.github.io/)
+- [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+- [JNose](https://jnosetest.github.io/)
+- [JNose - GitHub](https://github.com/arieslab/jnose)
+
 -----
 
 <div align="center">
