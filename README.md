@@ -46,13 +46,19 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [PyPi](https://pypi.org/project/openpyxl/)
 - [Documentação Oficial do OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 
+##### Data to Viz - Guia de escolha de gráficos:
+- [Data to Viz](https://www.data-to-viz.com/)
+
+##### Tableau - Ferramenta de visualização de dados e análise de dados:
+- [Tableau - Public](https://public.tableau.com/app/discover)
+
+##### Microsoft Power BI - Ferramenta de visualização e análise de dados:
+- [Microsoft Power BI](https://www.microsoft.com/pt-br/power-platform/products/power-bi)
+
 ##### Flourish:
 - [Flourish](https://flourish.studio/)
 - [Flourish for developers](https://developers.flourish.studio/)
 - Sugestão: Flourish é uma plataforma de visualização de dados que permite criar gráficos interativos, mapas e infográficos sem necessidade de programação. É amplamente utilizada para storytelling com dados, facilitando a criação de apresentações visuais impactantes.
-
-##### Data to Viz:
-- [Data to Viz](https://www.data-to-viz.com/)
 
 ##### Code analysis tools:
 - [PMD](https://pmd.github.io/)
