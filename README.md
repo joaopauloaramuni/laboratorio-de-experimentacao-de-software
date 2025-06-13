@@ -1,6 +1,6 @@
 -----
 
-<img alt="pucminas" src="https://joaopauloaramuni.github.io/image/FUNDOCOREUCAPA_2.svg?raw=true"/>
+<img alt="pucminas" src="https://joaopauloaramuni.github.io/image/FUNDOCOREUCAPA2.svg?raw=true"/>
 
 -----
 
