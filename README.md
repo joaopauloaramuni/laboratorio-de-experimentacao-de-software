@@ -46,7 +46,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [PyPi](https://pypi.org/project/openpyxl/)
 - [Documentação Oficial do OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 
-##### Data to Viz - Guia de escolha de gráficos:
+##### Data to Viz - Guia de escolha de gráficos
 - [Data to Viz](https://www.data-to-viz.com/)
 
 ##### Tableau - Ferramenta de visualização de dados e análise de dados
