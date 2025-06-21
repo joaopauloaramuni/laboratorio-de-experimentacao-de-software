@@ -60,9 +60,12 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Flourish for developers](https://developers.flourish.studio/)
 - Sugestão: Flourish é uma plataforma de visualização de dados que permite criar gráficos interativos, mapas e infográficos sem necessidade de programação. É amplamente utilizada para storytelling com dados, facilitando a criação de apresentações visuais impactantes.
 
-##### Code analysis tools:
+##### 🧹 Análise de código
+
 - [PMD](https://pmd.github.io/)
+- [PMD - GitHub](https://github.com/pmd/pmd)
 - [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+- [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
 - [JNose](https://jnosetest.github.io/)
 - [JNose - GitHub](https://github.com/arieslab/jnose)
 
