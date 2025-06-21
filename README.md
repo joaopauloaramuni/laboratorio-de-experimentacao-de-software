@@ -43,7 +43,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Pacote Matplotlib no PyPI](https://pypi.org/project/matplotlib/)
 
 ##### 📗 Openpyxl
-- [PyPi](https://pypi.org/project/openpyxl/)
+- [PyPi - Openpyxl](https://pypi.org/project/openpyxl/)
 - [Documentação Oficial do OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 
 ##### 📈 Data to Viz - Guia de escolha de gráficos
