@@ -23,39 +23,39 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)
 - [Empirical Research in Software Engineering (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)
 
-##### GitHub REST API:
+##### GitHub REST API
 - [Documentação GitHub REST API](https://docs.github.com/pt/rest)
 
-##### GraphQL:
+##### GraphQL
 - [GraphQL - Guia de aprendizado](https://graphql.org/learn/)
 - [Documentação da API do GraphQL do GitHub](https://docs.github.com/pt/graphql)
 - [The GraphQL Python community](https://github.com/graphql-python)
 
-##### Pandas:
+##### Pandas
 - [Documentação Oficial do Pandas](https://pandas.pydata.org/)
 - [Tutorial de Pandas - W3Schools](https://www.w3schools.com/python/pandas/default.asp)
 - [Pacote Pandas no PyPI](https://pypi.org/project/pandas/)
 
-##### Matplotlib:
+##### Matplotlib
 - [Documentação Oficial do Matplotlib](https://matplotlib.org/)
 - [Tutorial de Matplotlib - W3Schools](https://www.w3schools.com/python/matplotlib_intro.asp)
   - [Pyplot - W3Schools](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 - [Pacote Matplotlib no PyPI](https://pypi.org/project/matplotlib/)
 
-##### Openpyxl:
+##### Openpyxl
 - [PyPi](https://pypi.org/project/openpyxl/)
 - [Documentação Oficial do OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 
 ##### Data to Viz - Guia de escolha de gráficos:
 - [Data to Viz](https://www.data-to-viz.com/)
 
-##### Tableau - Ferramenta de visualização de dados e análise de dados:
+##### Tableau - Ferramenta de visualização de dados e análise de dados
 - [Tableau - Public](https://public.tableau.com/app/discover)
 
-##### Microsoft Power BI - Ferramenta de visualização e análise de dados:
+##### Microsoft Power BI - Ferramenta de visualização e análise de dados
 - [Microsoft Power BI](https://www.microsoft.com/pt-br/power-platform/products/power-bi)
 
-##### Flourish:
+##### Flourish
 - [Flourish](https://flourish.studio/)
 - [Flourish for developers](https://developers.flourish.studio/)
 - Sugestão: Flourish é uma plataforma de visualização de dados que permite criar gráficos interativos, mapas e infográficos sem necessidade de programação. É amplamente utilizada para storytelling com dados, facilitando a criação de apresentações visuais impactantes.
