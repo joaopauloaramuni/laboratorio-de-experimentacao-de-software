@@ -52,7 +52,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 ##### 📉 Tableau - Ferramenta de visualização de dados e análise de dados
 - [Tableau - Public](https://public.tableau.com/app/discover)
 
-##### Microsoft Power BI - Ferramenta de visualização e análise de dados
+##### 🪟 Microsoft Power BI - Ferramenta de visualização e análise de dados
 - [Microsoft Power BI](https://www.microsoft.com/pt-br/power-platform/products/power-bi)
 
 ##### 🌸 Flourish
