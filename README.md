@@ -55,6 +55,15 @@ Matplotlib é uma biblioteca de visualização de dados em Python que permite cr
   - [Pyplot - W3Schools](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 - [Pacote Matplotlib no PyPI](https://pypi.org/project/matplotlib/)
 
+##### 🧊 Seaborn
+
+Seaborn é uma biblioteca de visualização estatística baseada no Matplotlib. Ela fornece uma interface de alto nível para criação de gráficos informativos e atrativos, como mapas de calor, gráficos de dispersão com regressão, boxplots e violin plots. Ideal para análise exploratória de dados e visualização de padrões estatísticos.
+
+- [Documentação Oficial do Seaborn](https://seaborn.pydata.org/)
+- [Tutorial de Seaborn - W3Schools](https://www.w3schools.com/python/numpy/numpy_random_seaborn.asp)
+- [Tutorial de Seaborn - Geeks for Geeks](https://www.geeksforgeeks.org/python/python-seaborn-tutorial/)
+- [Pacote Seaborn no PyPI](https://pypi.org/project/seaborn/)
+
 ##### 📗 Openpyxl
 
 Openpyxl é uma biblioteca em Python que permite ler, criar e modificar arquivos do Excel no formato `.xlsx`. É útil para automação de planilhas, relatórios e integração com dados tabulares.
