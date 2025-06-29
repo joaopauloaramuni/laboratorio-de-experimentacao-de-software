@@ -22,7 +22,74 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 #### Links úteis:
 
+##### 🛠️ IDEs e Ferramentas
+
+###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
+IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a escrever, depurar e manter código com mais eficiência. Ferramentas como **PyCharm**, **VS Code** e **Python Tutor** oferecem recursos como autocompletar, depuração visual, linting, integração com Git e visualização de execução passo a passo.
+
+- [💡 PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)
+- [🧩 Visual Studio Code - Editor leve e extensível da Microsoft](https://code.visualstudio.com/)
+- [🔍 Python Tutor - Visualizador de Código Python](https://pythontutor.com/python-compiler.html)
+
+-----
+
+###### 🎓 Como obter o PyCharm Professional gratuitamente com o GitHub Student Pack
+
+Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratuito à **versão profissional das ferramentas da JetBrains**, como o **PyCharm Professional** 🧠💻. Essa é uma excelente oportunidade para utilizar recursos avançados de desenvolvimento, como depuração visual, análise de código, suporte a frameworks e muito mais — tudo **sem custo** para estudantes! 🚀
+
+###### ✅ Passo a passo:
+
+1️⃣ **Adicione seu e-mail institucional** da PUC Minas (terminado em `@sga.pucminas.br`) como **e-mail secundário** na sua conta do GitHub em [https://github.com/settings/emails](https://github.com/settings/emails)  
+2️⃣ Acesse a caixa de entrada do e-mail e **clique no link de confirmação** enviado pelo GitHub.  
+3️⃣ Ao acessar o [GitHub Student Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
+4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
+5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
+ ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
+6️⃣ **Instale o PyCharm** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains — [passo 5](https://www.jetbrains.com/shop/eform/students)), e a **licença Professional será ativada automaticamente** 🎉.
+
+🏁 Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
+
+- Acesso gratuito às **ferramentas profissionais da JetBrains**, como o **PyCharm Professional** 🧠💻  
+- **GitHub Copilot** com sugestões inteligentes de código (com testes gratuitos por tempo limitado) 🤖  
+- Repositórios privados ilimitados 🔒  
+- **Insights avançados de contribuições**, métricas e estatísticas dos seus projetos 📊  
+- Ferramentas de CI/CD integradas com GitHub Actions ⚙️  
+- Integrações com dezenas de serviços e ferramentas educacionais 🧩
+
+Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turbinar sua produtividade como desenvolvedor** 💼🚀
+
+🔗 Confira todos os detalhes do plano GitHub Pro para estudantes aqui:  
+- [https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
+
+-----
+
+##### 📚 Documentação oficial
+
+###### 🧾 Fontes confiáveis e completas sobre a linguagem e suas bibliotecas  
+A documentação oficial é a principal referência para aprender, consultar funcionalidades e entender o comportamento da linguagem Python e suas bibliotecas padrão. Essencial tanto para iniciantes quanto para desenvolvedores experientes que desejam usar recursos da linguagem da forma correta e atualizada.
+
+- [📖 Documentação Oficial do Python](https://docs.python.org/3/)
+
+-----
+
+##### 📚 Livros recomendados
+
+###### 📖 Leituras essenciais para aprender e dominar Python  
+A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, desde os fundamentos até tópicos avançados como orientação a objetos, scraping, boas práticas e uso idiomático da linguagem. A lista a seguir inclui títulos para iniciantes, intermediários e profissionais que desejam escrever código mais limpo e eficaz.
+
+- [📘 Python Fluente - Programação Concisa e Eficaz](https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X)
+- [📙 Pense em Python - Como um Cientista da Computação](https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081)
+- [📒 Python Essential Reference (David Beazley)](https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279)
+- [📕 Web Scraping com Python - Coletando Dados da Web](https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300)
+- [📗 Guia do Mochileiro Python (Felipe Furtado)](https://python-guide-pt-br.readthedocs.io/pt-br/latest/)
+
+-----
+
 ##### 📚 Leitura complementar
+
+###### 📖 Fontes para aprofundar conhecimentos em engenharia de software empírica  
+Além dos estudos focados na linguagem Python, é fundamental explorar abordagens mais amplas e baseadas em evidências sobre o desenvolvimento de software. A engenharia de software empírica fornece métodos e estudos que ajudam a compreender e melhorar práticas, ferramentas e processos de desenvolvimento com base em dados e observações do mundo real. Os recursos abaixo são indicados para quem deseja mergulhar nessa área de pesquisa aplicada.
+
 - [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)
 - [Empirical Research in Software Engineering (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)
 
@@ -104,7 +171,6 @@ Flourish é uma plataforma de visualização de dados que permite criar gráfico
 -----
 
 ##### 🧹 Análise de Código
-
 Ferramentas para análise estatística de código, detecção de *code smells*, métricas de qualidade e identificação de más práticas de programação.
 
 - **PMD**: Ferramenta que verifica problemas comuns em código Java, como variáveis não utilizadas, duplicação de código e estilos de codificação.
