@@ -88,8 +88,15 @@ A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, 
 ###### 📖 Fontes para aprofundar conhecimentos em engenharia de software empírica  
 Além dos estudos focados na linguagem Python, é fundamental explorar abordagens mais amplas e baseadas em evidências sobre o desenvolvimento de software. A engenharia de software empírica fornece métodos e estudos que ajudam a compreender e melhorar práticas, ferramentas e processos de desenvolvimento com base em dados e observações do mundo real. Os recursos abaixo são indicados para quem deseja mergulhar nessa área de pesquisa aplicada.
 
-- [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)
-- [Empirical Research in Software Engineering (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)
+- [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)  
+- [Empirical Research in Software Engineering: Concepts, Analysis, and Applications (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)  
+- [IEEE Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)  
+- [Evidence-Based Software Engineering and Systematic Reviews (Barbara Kitchenham, Per Runeson, et al.)](https://www.amazon.com/Guidelines-Systematic-Reviews-Evidence-Based-Engineering/dp/0124160097)  
+- [The Art and Science of Analyzing Software Data (Zeller, Gall, Menzies)](https://www.amazon.com/Art-Science-Analyzing-Software-Data/dp/0124115193)  
+- [ACM Transactions on Software Engineering and Methodology (TOSEM)](https://dl.acm.org/journal/tosem)  
+- [Mining Software Repositories (MSR Conference)](https://www.msrconf.org/)  
+- [Software Engineering at Google: Lessons Learned from Programming Over Time (O'Reilly)](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)  
+- [Evidence-Based Software Engineering (Kitchenham & Charters - PDF)](https://cs.bham.ac.uk/~pxt/EBSE/Kitchenham_2007_EBSE_Guidelines.pdf) *(guia clássico de revisões sistemáticas em SE)*  
 
 -----
 
