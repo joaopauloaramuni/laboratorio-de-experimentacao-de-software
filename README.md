@@ -89,14 +89,31 @@ A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, 
 Além dos estudos focados na linguagem Python, é fundamental explorar abordagens mais amplas e baseadas em evidências sobre o desenvolvimento de software. A engenharia de software empírica fornece métodos e estudos que ajudam a compreender e melhorar práticas, ferramentas e processos de desenvolvimento com base em dados e observações do mundo real. Os recursos abaixo são indicados para quem deseja mergulhar nessa área de pesquisa aplicada.
 
 - [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)  
+  *Revista científica de alto impacto que publica estudos empíricos baseados em dados reais sobre engenharia de software, abordando desde estudos de caso até experimentos controlados.*
+
 - [Empirical Research in Software Engineering: Concepts, Analysis, and Applications (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)  
+  *Livro introdutório e prático que cobre os fundamentos da pesquisa empírica em engenharia de software, com exemplos e aplicações reais.*
+
 - [IEEE Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)  
+  *Uma das publicações mais respeitadas da área, apresentando pesquisas de ponta, incluindo estudos empíricos, modelagem, testes e práticas de desenvolvimento.*
+
 - [Evidence-Based Software Engineering and Systematic Reviews (Barbara Kitchenham, Per Runeson, et al.)](https://www.amazon.com/Evidence-Based-Software-Engineering-Systematic-Reviews/dp/0367575337)  
+  *Obra fundamental sobre a aplicação de revisões sistemáticas e práticas baseadas em evidências na engenharia de software.*
+
 - [The Art and Science of Analyzing Software Data (Zeller, Gall, Menzies)](https://www.amazon.com/Art-Science-Analyzing-Software-Data/dp/0124115195)  
+  *Livro técnico que ensina a coletar, analisar e interpretar dados extraídos de projetos de software para fundamentar decisões técnicas.*
+
 - [ACM Transactions on Software Engineering and Methodology (TOSEM)](https://dl.acm.org/journal/tosem)  
+  *Periódico acadêmico da ACM focado em métodos, ferramentas e práticas de engenharia de software, com forte ênfase em estudos empíricos e validação experimental.*
+
 - [Mining Software Repositories (MSR Conference)](https://www.msrconf.org/)  
+  *Conferência internacional dedicada à extração e análise de dados de repositórios de software (como GitHub), com foco em descobrir padrões e gerar insights práticos.*
+
 - [Software Engineering at Google: Lessons Learned from Programming Over Time (O'Reilly)](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)  
+  *Livro baseado na experiência do Google, apresentando princípios, práticas e lições aprendidas sobre engenharia de software em larga escala — com abordagem pragmática e baseada em dados.*
+
 - [Guidelines for performing Systematic Literature Reviews in Software Engineering - PDF](https://legacyfileshare.elsevier.com/promis_misc/525444systematicreviewsguide.pdf) *(guia clássico de revisões sistemáticas em SE)*  
+  *Guia seminal de Kitchenham et al. que apresenta passo a passo como planejar, conduzir e reportar revisões sistemáticas da literatura em engenharia de software.*
 
 -----
 
