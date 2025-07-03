@@ -91,12 +91,12 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 - [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)  
 - [Empirical Research in Software Engineering: Concepts, Analysis, and Applications (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)  
 - [IEEE Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)  
-- [Evidence-Based Software Engineering and Systematic Reviews (Barbara Kitchenham, Per Runeson, et al.)](https://www.amazon.com/Guidelines-Systematic-Reviews-Evidence-Based-Engineering/dp/0124160097)  
-- [The Art and Science of Analyzing Software Data (Zeller, Gall, Menzies)](https://www.amazon.com/Art-Science-Analyzing-Software-Data/dp/0124115193)  
+- [Evidence-Based Software Engineering and Systematic Reviews (Barbara Kitchenham, Per Runeson, et al.)](https://www.amazon.com/Evidence-Based-Software-Engineering-Systematic-Reviews/dp/0367575337)  
+- [The Art and Science of Analyzing Software Data (Zeller, Gall, Menzies)](https://www.amazon.com/Art-Science-Analyzing-Software-Data/dp/0124115195)  
 - [ACM Transactions on Software Engineering and Methodology (TOSEM)](https://dl.acm.org/journal/tosem)  
 - [Mining Software Repositories (MSR Conference)](https://www.msrconf.org/)  
 - [Software Engineering at Google: Lessons Learned from Programming Over Time (O'Reilly)](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)  
-- [Evidence-Based Software Engineering (Kitchenham & Charters - PDF)](https://cs.bham.ac.uk/~pxt/EBSE/Kitchenham_2007_EBSE_Guidelines.pdf) *(guia clássico de revisões sistemáticas em SE)*  
+- [Guidelines for performing Systematic Literature Reviews in Software Engineering - PDF](https://legacyfileshare.elsevier.com/promis_misc/525444systematicreviewsguide.pdf) *(guia clássico de revisões sistemáticas em SE)*  
 
 -----
 
