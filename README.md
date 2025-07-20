@@ -73,6 +73,30 @@ A documentação oficial é a principal referência para aprender, consultar fun
 
 ##### 📚 Livros recomendados
 
+##### 📚 Referências gerais
+
+###### 📌 Experimentação de Software
+
+- 📙 [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)  
+  Revista científica de alto impacto que publica estudos empíricos baseados em dados reais sobre engenharia de software, abordando desde estudos de caso até experimentos controlados.
+
+- 📕 [Empirical Research in Software Engineering: Concepts, Analysis, and Applications (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)  
+  Livro introdutório e prático que cobre os fundamentos da pesquisa empírica em engenharia de software, com exemplos e aplicações reais.
+
+- 📘 [Experimentation in Software Engineering (Springer)](https://link.springer.com/book/10.1007/978-3-662-69306-3)  
+  Livro referência sobre experimentação na engenharia de software, cobrindo desenho, condução e análise de estudos empíricos.
+
+###### 🛠️ Engenharia de Software
+
+- 📗 [Software Engineering – Ian Sommerville](https://www.amazon.com.br/Engenharia-Software-Ian-Sommerville/dp/8543024978)  
+  Obra clássica que aborda de forma abrangente os principais conceitos, processos e práticas da engenharia de software, amplamente utilizada em cursos e na indústria.
+
+- 📘 [Engenharia de Software Moderna - Marco Tulio Valente](https://engsoftmoderna.info/)  
+  *Livro gratuito e atualizado que trata da engenharia de software com foco em práticas modernas, como integração contínua, microserviços e DevOps, com exemplos em Java e Python.*
+
+- 📚 [IEEE SWEBOK – Software Engineering Body of Knowledge](https://www.computer.org/education/bodies-of-knowledge/software-engineering)  
+  - [PDF](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/SWEBOK/swebok-v4.pdf) - Guia oficial do IEEE que organiza e descreve o corpo de conhecimento essencial da engenharia de software, servindo como referência para profissionais, educadores e certificações.
+
 ###### 📖 Leituras essenciais para aprender e dominar Python  
 A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, desde os fundamentos até tópicos avançados como orientação a objetos, scraping, boas práticas e uso idiomático da linguagem. A lista a seguir inclui títulos para iniciantes, intermediários e profissionais que desejam escrever código mais limpo e eficaz.
 
@@ -89,12 +113,6 @@ A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, 
 
 ###### 📖 Fontes para aprofundar conhecimentos em engenharia de software empírica  
 Além dos estudos focados na linguagem Python, é fundamental explorar abordagens mais amplas e baseadas em evidências sobre o desenvolvimento de software. A engenharia de software empírica fornece métodos e estudos que ajudam a compreender e melhorar práticas, ferramentas e processos de desenvolvimento com base em dados e observações do mundo real. Os recursos abaixo são indicados para quem deseja mergulhar nessa área de pesquisa aplicada.
-
-- [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)  
-  *Revista científica de alto impacto que publica estudos empíricos baseados em dados reais sobre engenharia de software, abordando desde estudos de caso até experimentos controlados.*
-
-- [Empirical Research in Software Engineering: Concepts, Analysis, and Applications (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)  
-  *Livro introdutório e prático que cobre os fundamentos da pesquisa empírica em engenharia de software, com exemplos e aplicações reais.*
 
 - [IEEE Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)  
   *Uma das publicações mais respeitadas da área, apresentando pesquisas de ponta, incluindo estudos empíricos, modelagem, testes e práticas de desenvolvimento.*
