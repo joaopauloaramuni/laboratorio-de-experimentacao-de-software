@@ -104,10 +104,37 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 -----
 
-##### 🧾 Artigos e leituras sugeridas
+##### 🧾 Artigos clássicos e leituras sugeridas
 
-- 👃 [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)  
-  Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
+1. Basili, V.R., & Weiss, D.M. (1984). [A Methodology for Collecting Valid Software Engineering Data. IEEE Transactions on Software Engineering](https://ieeexplore.ieee.org/document/5010301).
+   Este artigo apresenta uma metodologia rigorosa para coleta e análise de dados empíricos em engenharia de software, sendo um marco para experimentação controlada.
+
+2. Jones, C. (1996). Applied Software Measurement: Assuring Productivity and Quality. 
+   Baseado em dados reais de milhares de projetos, este trabalho sistematiza métricas para produtividade e qualidade, influenciando fortemente práticas industriais.
+
+3. Juristo, N., & Moreno, A.M. (2013). Basics of Software Engineering Experimentation. Springer.  
+   Livro e artigos derivados desta obra apresentam fundamentos essenciais para o desenho e análise de experimentos em engenharia de software.
+
+4. Wohlin, C., et al. (2012). Experimentation in Software Engineering. Springer.
+   Este livro e seus artigos associados são referência para métodos experimentais e melhores práticas em estudos empíricos de software.
+
+5. Shull, F., et al. (2008). Guide to Advanced Empirical Software Engineering. Springer.
+   Explora métodos avançados de experimentação, incluindo análise qualitativa e quantitativa, ampliando o escopo da pesquisa empírica.
+
+6. Kitchenham, B., et al. (1995). An Empirical Study of Maintenance Prediction Models. Empirical Software Engineering Journal.  
+   Artigo clássico que aplica rigor metodológico para validar modelos preditivos na manutenção de software.
+
+7. Basili, V.R., Caldiera, G., & Rombach, H.D. (1994). The Goal Question Metric Approach. Journal of Software Engineering and Knowledge Engineering.
+   Define um framework para definição sistemática de métricas alinhadas a objetivos de negócios e engenharia.
+
+8. Fenton, N.E., & Neil, M. (1999). A Critique of Software Defect Prediction Models. IEEE Transactions on Software Engineering.
+   Análise crítica dos modelos preditivos de defeitos, ressaltando desafios na validação empírica.
+
+9. Tichy, W.F. (1998). Should Computer Scientists Experiment More?. IEEE Computer.
+    Discussão histórica e crítica sobre a importância da experimentação rigorosa em ciência da computação e engenharia de software.
+    
+10. 👃 [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)
+    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
 -----
 
