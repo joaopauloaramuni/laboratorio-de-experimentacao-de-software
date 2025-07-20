@@ -23,56 +23,6 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 #### Links úteis:
 
-##### 🛠️ IDEs e Ferramentas
-
-###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
-IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a escrever, depurar e manter código com mais eficiência. Ferramentas como **PyCharm**, **VS Code** e **Python Tutor** oferecem recursos como autocompletar, depuração visual, linting, integração com Git e visualização de execução passo a passo.
-
-- [💡 PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)
-- [🧩 Visual Studio Code - Editor leve e extensível da Microsoft](https://code.visualstudio.com/)
-- [🔍 Python Tutor - Visualizador de Código Python](https://pythontutor.com/python-compiler.html)
-
------
-
-###### 🎓 Como obter o PyCharm Professional gratuitamente com o GitHub Student Developer Pack
-Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratuito à **versão profissional das ferramentas da JetBrains**, como o **PyCharm Professional** 🧠💻. Essa é uma excelente oportunidade para utilizar recursos avançados de desenvolvimento, como depuração visual, análise de código, suporte a frameworks e muito mais — tudo **sem custo** para estudantes! 🚀
-
-###### ✅ Passo a passo:
-1️⃣ **Adicione seu e-mail institucional** da PUC Minas (terminado em `@sga.pucminas.br`) como **e-mail secundário** na sua conta do GitHub em [https://github.com/settings/emails](https://github.com/settings/emails)  
-2️⃣ Acesse a caixa de entrada do e-mail e **clique no link de confirmação** enviado pelo GitHub.  
-3️⃣ Ao acessar o [GitHub Student Developer Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
-4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
-5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
- ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
-6️⃣ **Instale o PyCharm** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains — [passo 5](https://www.jetbrains.com/shop/eform/students)), e a **licença Professional será ativada automaticamente** 🎉.
-
-🏁 Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
-
-- Acesso gratuito às **ferramentas profissionais da JetBrains**, como o **PyCharm Professional** 🧠💻  
-- **GitHub Copilot** com sugestões inteligentes de código (com testes gratuitos por tempo limitado) 🤖  
-- Repositórios privados ilimitados 🔒  
-- **Insights avançados de contribuições**, métricas e estatísticas dos seus projetos 📊  
-- Ferramentas de CI/CD integradas com GitHub Actions ⚙️  
-- Integrações com dezenas de serviços e ferramentas educacionais 🧩
-
-Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turbinar sua produtividade como desenvolvedor** 💼🚀
-
-🔗 Confira todos os detalhes do plano GitHub Pro para estudantes aqui:  
-- [https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
-
------
-
-##### 📚 Documentação oficial
-
-###### 🧾 Fontes confiáveis e completas sobre a linguagem e suas bibliotecas  
-A documentação oficial é a principal referência para aprender, consultar funcionalidades e entender o comportamento da linguagem Python e suas bibliotecas padrão. Essencial tanto para iniciantes quanto para desenvolvedores experientes que desejam usar recursos da linguagem da forma correta e atualizada.
-
-- [📖 Documentação Oficial do Python](https://docs.python.org/3/)
-
------
-
-##### 📚 Livros recomendados
-
 ##### 📚 Referências gerais
 
 ###### 📌 Experimentação de Software
@@ -141,6 +91,54 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 - 👃 [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)  
   Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
+
+-----
+
+##### 🛠️ IDEs e Ferramentas
+
+###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
+IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a escrever, depurar e manter código com mais eficiência. Ferramentas como **PyCharm**, **VS Code** e **Python Tutor** oferecem recursos como autocompletar, depuração visual, linting, integração com Git e visualização de execução passo a passo.
+
+- [💡 PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)
+- [🧩 Visual Studio Code - Editor leve e extensível da Microsoft](https://code.visualstudio.com/)
+- [🔍 Python Tutor - Visualizador de Código Python](https://pythontutor.com/python-compiler.html)
+
+-----
+
+###### 🎓 Como obter o PyCharm Professional gratuitamente com o GitHub Student Developer Pack
+Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratuito à **versão profissional das ferramentas da JetBrains**, como o **PyCharm Professional** 🧠💻. Essa é uma excelente oportunidade para utilizar recursos avançados de desenvolvimento, como depuração visual, análise de código, suporte a frameworks e muito mais — tudo **sem custo** para estudantes! 🚀
+
+###### ✅ Passo a passo:
+1️⃣ **Adicione seu e-mail institucional** da PUC Minas (terminado em `@sga.pucminas.br`) como **e-mail secundário** na sua conta do GitHub em [https://github.com/settings/emails](https://github.com/settings/emails)  
+2️⃣ Acesse a caixa de entrada do e-mail e **clique no link de confirmação** enviado pelo GitHub.  
+3️⃣ Ao acessar o [GitHub Student Developer Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
+4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
+5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
+ ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
+6️⃣ **Instale o PyCharm** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains — [passo 5](https://www.jetbrains.com/shop/eform/students)), e a **licença Professional será ativada automaticamente** 🎉.
+
+🏁 Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
+
+- Acesso gratuito às **ferramentas profissionais da JetBrains**, como o **PyCharm Professional** 🧠💻  
+- **GitHub Copilot** com sugestões inteligentes de código (com testes gratuitos por tempo limitado) 🤖  
+- Repositórios privados ilimitados 🔒  
+- **Insights avançados de contribuições**, métricas e estatísticas dos seus projetos 📊  
+- Ferramentas de CI/CD integradas com GitHub Actions ⚙️  
+- Integrações com dezenas de serviços e ferramentas educacionais 🧩
+
+Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turbinar sua produtividade como desenvolvedor** 💼🚀
+
+🔗 Confira todos os detalhes do plano GitHub Pro para estudantes aqui:  
+- [https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
+
+-----
+
+##### 📚 Documentação oficial
+
+###### 🧾 Fontes confiáveis e completas sobre a linguagem e suas bibliotecas  
+A documentação oficial é a principal referência para aprender, consultar funcionalidades e entender o comportamento da linguagem Python e suas bibliotecas padrão. Essencial tanto para iniciantes quanto para desenvolvedores experientes que desejam usar recursos da linguagem da forma correta e atualizada.
+
+- [📖 Documentação Oficial do Python](https://docs.python.org/3/)
 
 -----
 
