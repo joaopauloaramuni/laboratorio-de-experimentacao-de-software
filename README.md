@@ -115,22 +115,19 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 3. Wohlin, C., et al. (2012). Experimentation in Software Engineering. Springer.
    Este livro e seus artigos associados são referência para métodos experimentais e melhores práticas em estudos empíricos de software.
 
-4. Shull, F., et al. (2008). Guide to Advanced Empirical Software Engineering. Springer.
-   Explora métodos avançados de experimentação, incluindo análise qualitativa e quantitativa, ampliando o escopo da pesquisa empírica.
-
-5. Kitchenham, B., et al. (1995). An Empirical Study of Maintenance Prediction Models. Empirical Software Engineering Journal.  
+4. Kitchenham, B., et al. (1995). An Empirical Study of Maintenance Prediction Models. Empirical Software Engineering Journal.  
    Artigo clássico que aplica rigor metodológico para validar modelos preditivos na manutenção de software.
 
-6. Basili, V.R., Caldiera, G., & Rombach, H.D. (1994). The Goal Question Metric Approach. Journal of Software Engineering and Knowledge Engineering.
+5. Basili, V.R., Caldiera, G., & Rombach, H.D. (1994). The Goal Question Metric Approach. Journal of Software Engineering and Knowledge Engineering.
    Define um framework para definição sistemática de métricas alinhadas a objetivos de negócios e engenharia.
 
-7. Fenton, N.E., & Neil, M. (1999). A Critique of Software Defect Prediction Models. IEEE Transactions on Software Engineering.
+6. Fenton, N.E., & Neil, M. (1999). A Critique of Software Defect Prediction Models. IEEE Transactions on Software Engineering.
    Análise crítica dos modelos preditivos de defeitos, ressaltando desafios na validação empírica.
 
-8. Tichy, W.F. (1998). Should Computer Scientists Experiment More?. IEEE Computer.
+7. Tichy, W.F. (1998). Should Computer Scientists Experiment More?. IEEE Computer.
     Discussão histórica e crítica sobre a importância da experimentação rigorosa em ciência da computação e engenharia de software.
     
-9. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)
+8. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)
     Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
 -----
