@@ -133,7 +133,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 9. Tichy, W.F. (1998). Should Computer Scientists Experiment More?. IEEE Computer.
     Discussão histórica e crítica sobre a importância da experimentação rigorosa em ciência da computação e engenharia de software.
     
-10. 👃 [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)
+10. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)
     Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
 -----
