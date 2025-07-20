@@ -27,14 +27,14 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ###### 📌 Experimentação de Software
 
-- 📙 [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)  
-  Revista científica de alto impacto que publica estudos empíricos baseados em dados reais sobre engenharia de software, abordando desde estudos de caso até experimentos controlados.
+- 📘 [Experimentation in Software Engineering (Springer)](https://link.springer.com/book/10.1007/978-3-662-69306-3)  
+  Livro referência sobre experimentação na engenharia de software, cobrindo desenho, condução e análise de estudos empíricos.
 
 - 📕 [Empirical Research in Software Engineering: Concepts, Analysis, and Applications (Amazon)](https://www.amazon.com/Empirical-Research-Software-Engineering-Applications/dp/1498719724)  
   Livro introdutório e prático que cobre os fundamentos da pesquisa empírica em engenharia de software, com exemplos e aplicações reais.
 
-- 📘 [Experimentation in Software Engineering (Springer)](https://link.springer.com/book/10.1007/978-3-662-69306-3)  
-  Livro referência sobre experimentação na engenharia de software, cobrindo desenho, condução e análise de estudos empíricos.
+- 📙 [Empirical Software Engineering - An International Journal (Springer)](https://link.springer.com/journal/10664)  
+  Revista científica de alto impacto que publica estudos empíricos baseados em dados reais sobre engenharia de software, abordando desde estudos de caso até experimentos controlados.
 
 ###### 🛠️ Engenharia de Software
 
@@ -73,22 +73,33 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 - 📙 [Applied Software Measurement: Global Analysis of Productivity and Quality (3rd Edition) – Capers Jones](https://www.amazon.com.br/Applied-Software-Measurement-Productivity-Quality/dp/0071502440)  
   Obra abrangente sobre métricas de software, abordando desde pontos de função até metodologias ágeis, com dados de mais de 12.000 projetos em 24 países.
 
-- [Evidence-Based Software Engineering and Systematic Reviews (Barbara Kitchenham, Per Runeson, et al.)](https://www.amazon.com/Evidence-Based-Software-Engineering-Systematic-Reviews/dp/0367575337)  
+- 📕 [Basics of Software Engineering Experimentation](https://www.amazon.com.br/Software-Engineering-Experimentation-Natalia-Juristo/dp/1441950117)  
+  Guia prático que mostra como aplicar desenho e análise de experimentos para validar suposições em engenharia de software. Não exige conhecimento profundo em matemática e usa exemplos reais e fictícios do campo.
+  
+- 📘 [Guide to Advanced Empirical Software Engineering](https://link.springer.com/book/10.1007/978-1-84800-044-5)  
+  Referência avançada que explora técnicas empíricas para pesquisa e prática em engenharia de software, incluindo métodos quantitativos e qualitativos, estudos de caso e análises complexas.
+
+###### 📝 Outras fontes extras
+
+- 📗 [Software Engineering: A Practitioner’s Approach – Roger Pressman](https://www.amazon.com.br/Engenharia-software-Roger-S-Pressman/dp/6558040107)  
+  Referência clássica que cobre fundamentos e práticas gerais da engenharia de software, incluindo métricas e validação, mas com abordagem limitada sobre experimentação empírica.
+
+- 📘 [Evidence-Based Software Engineering and Systematic Reviews (Barbara Kitchenham, Per Runeson, et al.)](https://www.amazon.com/Evidence-Based-Software-Engineering-Systematic-Reviews/dp/0367575337)  
   Obra fundamental sobre a aplicação de revisões sistemáticas e práticas baseadas em evidências na engenharia de software.
 
-- [The Art and Science of Analyzing Software Data (Zeller, Gall, Menzies)](https://www.amazon.com/Art-Science-Analyzing-Software-Data/dp/0124115195)  
+- 📒 [The Art and Science of Analyzing Software Data (Zeller, Gall, Menzies)](https://www.amazon.com/Art-Science-Analyzing-Software-Data/dp/0124115195)  
   Livro técnico que ensina a coletar, analisar e interpretar dados extraídos de projetos de software para fundamentar decisões técnicas.
 
-- [ACM Transactions on Software Engineering and Methodology (TOSEM)](https://dl.acm.org/journal/tosem)  
+- 📕 [ACM Transactions on Software Engineering and Methodology (TOSEM)](https://dl.acm.org/journal/tosem)  
   Periódico acadêmico da ACM focado em métodos, ferramentas e práticas de engenharia de software, com forte ênfase em estudos empíricos e validação experimental.
 
-- [Mining Software Repositories (MSR Conference)](https://www.msrconf.org/)  
+- 📙 [Mining Software Repositories (MSR Conference)](https://www.msrconf.org/)  
   Conferência internacional dedicada à extração e análise de dados de repositórios de software (como GitHub), com foco em descobrir padrões e gerar insights práticos.
 
-- [Software Engineering at Google: Lessons Learned from Programming Over Time (O'Reilly)](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)  
+- 📓 [Software Engineering at Google: Lessons Learned from Programming Over Time (O'Reilly)](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)  
   Livro baseado na experiência do Google, apresentando princípios, práticas e lições aprendidas sobre engenharia de software em larga escala — com abordagem pragmática e baseada em dados.
 
-- [Guidelines for performing Systematic Literature Reviews in Software Engineering - PDF](https://legacyfileshare.elsevier.com/promis_misc/525444systematicreviewsguide.pdf) *(guia clássico de revisões sistemáticas em SE)*  
+- 📔 [Guidelines for performing Systematic Literature Reviews in Software Engineering - PDF](https://legacyfileshare.elsevier.com/promis_misc/525444systematicreviewsguide.pdf) *(guia clássico de revisões sistemáticas em SE)*  
   Guia seminal de Kitchenham et al. que apresenta passo a passo como planejar, conduzir e reportar revisões sistemáticas da literatura em engenharia de software.
 
 -----
