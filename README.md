@@ -149,7 +149,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
     Clássico que investiga as necessidades de informação em equipes de desenvolvimento de software que trabalham fisicamente próximas, ajudando a compreender fluxos de comunicação e colaboração.
 
 15. 📈 Arcuri, A., & Briand, L. (2011). [A Practical Guide for Using Statistical Tests to Assess Randomized Algorithms in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-practical-guide-for-using-statistical-tests-to-assess-randomized-algorithms.pdf). *Empirical Software Engineering*, 16(1), pp. 1–33.  
-    Este artigo fornece diretrizes práticas para o uso adequado de testes estatísticos na avaliação de algoritmos randomizados, muito comuns em engenharia de software. Aborda erros frequentes, escolha de testes apropriados (como Mann-Whitney, Wilcoxon e testes de hipótese múltiplas) e interpretação correta dos resultados — com exemplos aplicados. Essencial para experimentação empírica com comparações de desempenho.
+    Guia prático sobre como aplicar testes estatísticos corretamente na comparação de algoritmos randomizados, com foco em engenharia de software.
 
 -----
 
