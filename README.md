@@ -106,7 +106,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 ##### 🧾 Artigos clássicos e leituras sugeridas
 
-1. Basili, V.R., & Weiss, D.M. (1984). [A Methodology for Collecting Valid Software Engineering Data. IEEE Transactions on Software Engineering](https://ieeexplore.ieee.org/document/5010301).  
+1. Basili, V.R., & Weiss, D.M. (1984). [A Methodology for Collecting Valid Software Engineering Data. IEEE Transactions on Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-methodology-for-collecting-valid-software-engineering-data.pdf).  
    Este artigo apresenta uma metodologia rigorosa para coleta e análise de dados empíricos em engenharia de software, sendo um marco para experimentação controlada.
 
 2. Kitchenham, B., et al. (2002). [An Empirical Study of Maintenance and Development Estimation Accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-empirical-study-of-maintenance-and-development-estimation-accuracy.pdf). The Journal of Systems and Software.  
