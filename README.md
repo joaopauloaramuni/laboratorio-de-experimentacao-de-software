@@ -173,8 +173,8 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 21. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf). *Journal of Software Engineering Research and Development*  
    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
-22. 🧯 Bavota, G., Oliveto, R., Gethers, M., Poshyvanyk, D., & De Lucia, A. (2015). [An Empirical Evaluation of the Impact of Code Smells on Software Maintainability](https://doi.org/10.1007/s10664-013-9286-8). *Empirical Software Engineering*.  
-    Estudo empírico que avalia como diferentes *code smells* afetam manutenibilidade, esforço de modificação e propensão a defeitos.
+22. 🤖 Recupito, G., Giordano, G., Ferrucci, F., Di Nucci, D., & Palomba, F. (2024). [When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/When-code-smells-meet-ML.pdf). *Proceedings of the 45th International Conference on Software Engineering (ICSE)*.  
+    Estudo que investiga *code smells* específicos de sistemas baseados em Machine Learning. Analisa sua prevalência, evolução e remoção em mais de 400 mil commits de 337 projetos reais, usando a ferramenta CodeSmile para detecção automatizada.
 
 -----
 
