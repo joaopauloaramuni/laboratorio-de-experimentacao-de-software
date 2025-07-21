@@ -173,12 +173,12 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 21. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf). *Journal of Software Engineering Research and Development*.  
    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
-###### 2024-2025
+###### 2025
 
 22. 🤖 Recupito, G., Giordano, G., Ferrucci, F., Di Nucci, D., & Palomba, F. (2025). [When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/When-code-smells-meet-ML.pdf). *Empirical Software Engineering: Volume 30, article number 139*.  
     Estudo que investiga *code smells* específicos de sistemas baseados em Machine Learning. Analisa sua prevalência, evolução e remoção em mais de 400 mil commits de 337 projetos reais, usando a ferramenta CodeSmile para detecção automatizada.
 
-23. 🧠 De Martino, V., Castaño, J., Palomba, F., Franch, X., & Martínez-Fernández, S. (2024). [A Framework for Using LLMs for Repository Mining Studies in Empirical Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-framework-for-using-LLMs-for-repository-mining-studies-in-empirical-software-engineering.pdf). *2025 IEEE/ACM International Workshop on Methodological Issues with Empirical Studies in Software Engineering (WSESE)*.  
+23. 🧠 De Martino, V., Castaño, J., Palomba, F., Franch, X., & Martínez-Fernández, S. (2025). [A Framework for Using LLMs for Repository Mining Studies in Empirical Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-framework-for-using-LLMs-for-repository-mining-studies-in-empirical-software-engineering.pdf). *2025 IEEE/ACM International Workshop on Methodological Issues with Empirical Studies in Software Engineering (WSESE)*.  
     Propõe o framework PRIMES para apoiar o uso de LLMs em estudos de mineração de repositórios. O foco está na criação e refinamento de prompts, controle de resultados e reprodutibilidade, com lições práticas de dois estudos empíricos.
 
 24. 🗂️ Alomari, N., Alazba, A., Aljamaan, H., & Alshayeb, M. (2025). [SmellyCode++: Multi-Label Dataset for Code Smell Detection](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/SmellyCode%2B%2B.pdf). *Sci Data 12, 1207 (2025)*.  
