@@ -173,8 +173,22 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 21. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf). *Journal of Software Engineering Research and Development*  
    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
+###### 2024-2025
+
 22. 🤖 Recupito, G., Giordano, G., Ferrucci, F., Di Nucci, D., & Palomba, F. (2024). [When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/When-code-smells-meet-ML.pdf). *Proceedings of the 45th International Conference on Software Engineering (ICSE)*.  
     Estudo que investiga *code smells* específicos de sistemas baseados em Machine Learning. Analisa sua prevalência, evolução e remoção em mais de 400 mil commits de 337 projetos reais, usando a ferramenta CodeSmile para detecção automatizada.
+
+23. 🧠 De Martino, V., Castaño, J., Palomba, F., Franch, X., & Martínez-Fernández, S. (2024). [A Framework for Using LLMs for Repository Mining Studies in Empirical Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-framework-for-using-LLMs-for-repository-mining-studies-in-empirical-software-engineering.pdf). *Proceedings of the International Conference on Mining Software Repositories (MSR)*.  
+    Propõe o framework PRIMES para apoiar o uso de LLMs em estudos de mineração de repositórios. O foco está na criação e refinamento de prompts, controle de resultados e reprodutibilidade, com lições práticas de dois estudos empíricos.
+
+24. 🗂️ Alomari, N., Alazba, A., Aljamaan, H., & Alshayeb, M. (2025). [SmellyCode++: Multi-Label Dataset for Code Smell Detection](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/SmellyCode%2B%2B.pdf). *Journal of Software Maintenance and Evolution*.  
+    Apresenta um dataset multi-label com mais de 107 mil amostras para detecção de *code smells* em Java, incluindo God Class, Data Class, Feature Envy e Long Method. O dataset integra métricas numéricas e texto, melhorando a realismo na detecção e suporte para treinamento de LLMs.
+    
+25. 🐍 Boloori, A., & Sharma, T. (2025). [DPy: Code Smells Detection Tool for Python](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/DPy-code-smells-detection-tool-for-python.pdf). *Proceedings of the 2025 IEEE/ACM 22nd International Conference on Mining Software Repositories (MSR)*.  
+    Apresenta o DPy, ferramenta para detecção de *code smells* em Python, suportando 8 *design smells* e 11 *implementation smells*, além de métricas de qualidade. Disponibiliza pacote de replicação completo para validação e uso.
+
+26. 🧱 Tamanna, M., Chandrani, Y., Burrows, M., Wroblewski, B., Williams, L., & Wermke, D. (2025). [Build It Clean: Large-Scale Detection of Code Smells in Build Scripts](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Build-it-clean-large-scale-detection-of-code-smells-in-build-scripts.pdf). *North Carolina State University*.  
+    Estudo sobre *code smells* em scripts de build (Maven, Gradle, CMake e Makefiles), com análise de 5882 scripts de 4877 repositórios. A ferramenta Sniffer identificou 13 tipos de smells, somando 10.895 ocorrências. Oferece recomendações para melhorar a manutenção e confiabilidade dos scripts.
 
 -----
 
