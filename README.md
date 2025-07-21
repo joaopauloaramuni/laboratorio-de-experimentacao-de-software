@@ -106,7 +106,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 ##### 🧾 Artigos clássicos e leituras sugeridas
 
-1. 📄 Basili, V.R., & Weiss, D.M. (1984). [A Methodology for Collecting Valid Software Engineering Data. IEEE Transactions on Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-methodology-for-collecting-valid-software-engineering-data.pdf).  
+1. 📄 Basili, V.R., & Weiss, D.M. (1984). [A Methodology for Collecting Valid Software Engineering Data](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-methodology-for-collecting-valid-software-engineering-data.pdf). *IEEE Transactions on Software Engineering*
    Este artigo apresenta uma metodologia rigorosa para coleta e análise de dados empíricos em engenharia de software, sendo um marco para experimentação controlada.
 
 2. 📊 Kitchenham, B., et al. (2002). [An Empirical Study of Maintenance and Development Estimation Accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-empirical-study-of-maintenance-and-development-estimation-accuracy.pdf). *The Journal of Systems and Software*.  
@@ -121,10 +121,10 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 5. 🧪 Tichy, W.F. (1998). [Should Computer Scientists Experiment More?](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Should-computer-scientists-experiment-more%3F.pdf). *IEEE Computer*.  
    Discussão histórica e crítica sobre a importância da experimentação rigorosa em ciência da computação e engenharia de software.
 
-6. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf).  
+6. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf). *Journal of Software Engineering Research and Development*  
    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
-7. 🧾 Runeson, P., & Höst, M. (2009). [Guidelines for conducting and reporting case study research in software engineering. Empirical Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering.pdf).  
+7. 🧾 Runeson, P., & Höst, M. (2009). [Guidelines for conducting and reporting case study research in software engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering.pdf). *Empirical Software Engineering*  
    Artigo fundamental para quem deseja conduzir estudos de caso em engenharia de software com rigor científico e validade externa.
 
 8. 🔄 Dyba, T., & Dingsoyr, T. (2008). [Empirical studies of agile software development: A systematic review](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Empirical-studies-of-agile-software-development-A-systematic-review.pdf). *Information and Software Technology*.  
@@ -148,7 +148,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 14. 📄 Zazworka, N., et al. (2013). [Comparing Four Approaches for Technical Debt Identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Software Quality Journal*, pp. 1-24.  
     Compara quatro técnicas para identificar dívida técnica no código-fonte, mostrando pouca sobreposição entre elas e destacando a relação entre violações de modularidade e maior incidência de defeitos e mudanças.
 
-15. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://doi.org/10.1109/ICSE.2007.50). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
+15. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Information-needs-in-collocated-software-development-teams.pdf). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
     Clássico que investiga as necessidades de informação em equipes de desenvolvimento de software que trabalham fisicamente próximas, ajudando a compreender fluxos de comunicação e colaboração.
 
 16. 🔁 Ralph, P., & Tempero, E. (2021). [Behavioral Software Engineering: A Manifesto](https://doi.org/10.1016/j.jss.2020.110897). *Journal of Systems and Software*.  
@@ -163,7 +163,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 19. 🔍 Juristo, N., & Moreno, A. M. (2001). [Basics of Software Engineering Experimentation](https://ieeexplore.ieee.org/document/924502). *IEEE Software*.  
     Guia prático e introdutório sobre experimentação em engenharia de software, cobrindo planejamento, desenho experimental e análise dos dados.
 
-20. ⚙️ Briand, L.C., Labiche, Y., & Soccar, S. (2006). [Using Simulation to Support Software Process Improvement: A Controlled Experiment](https://ieeexplore.ieee.org/document/1597737). *IEEE Transactions on Software Engineering*.  
+29. ⚙️ Briand, L.C., Labiche, Y., & Soccar, S. (2006). [Using Simulation to Support Software Process Improvement: A Controlled Experiment](https://ieeexplore.ieee.org/document/1597737). *IEEE Transactions on Software Engineering*.  
     Apresenta um experimento controlado que avalia o uso de simulação para apoiar a melhoria de processos de software, destacando os benefícios e limitações da abordagem.
 
 -----
