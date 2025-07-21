@@ -151,21 +151,6 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 15. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Information-needs-in-collocated-software-development-teams.pdf). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
     Clássico que investiga as necessidades de informação em equipes de desenvolvimento de software que trabalham fisicamente próximas, ajudando a compreender fluxos de comunicação e colaboração.
 
-16. 🔁 Ralph, P., & Tempero, E. (2021). [Behavioral Software Engineering: A Manifesto](https://doi.org/10.1016/j.jss.2020.110897). *Journal of Systems and Software*.  
-    Manifesto que destaca a importância de focar no comportamento humano e cognitivo na engenharia de software, defendendo abordagens mais centradas nas pessoas.
-
-17. 🧪 Wohlin, C., Runeson, P., Höst, M., et al. (2012). [Experimentation in Software Engineering](https://link.springer.com/book/10.1007/978-3-642-29044-2). *Springer*.  
-    Livro essencial que aborda métodos, técnicas e desafios da experimentação em engenharia de software, com enfoque em experimentos controlados, estudos de caso e revisões sistemáticas.
-
-18. 🧩 Erdogmus, H., Favaro, J., & Strigel, W. (2005). [Using the Personal Software Process (PSP) to Understand the Impact of Process Improvement](https://ieeexplore.ieee.org/document/1461623). *IEEE Software*.  
-    Analisa o impacto da melhoria de processos individuais na qualidade do software, baseado em dados empíricos coletados via PSP.
-
-19. 🔍 Juristo, N., & Moreno, A. M. (2001). [Basics of Software Engineering Experimentation](https://ieeexplore.ieee.org/document/924502). *IEEE Software*.  
-    Guia prático e introdutório sobre experimentação em engenharia de software, cobrindo planejamento, desenho experimental e análise dos dados.
-
-20. ⚙️ Briand, L.C., Labiche, Y., & Soccar, S. (2006). [Using Simulation to Support Software Process Improvement: A Controlled Experiment](https://ieeexplore.ieee.org/document/1597737). *IEEE Transactions on Software Engineering*.  
-    Apresenta um experimento controlado que avalia o uso de simulação para apoiar a melhoria de processos de software, destacando os benefícios e limitações da abordagem.
-
 -----
 
 ##### 🛠️ IDEs e Ferramentas
