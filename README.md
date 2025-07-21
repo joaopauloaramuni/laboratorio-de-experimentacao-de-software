@@ -106,33 +106,36 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 ##### 🧾 Artigos clássicos e leituras sugeridas
 
-1. Basili, V.R., & Weiss, D.M. (1984). [A Methodology for Collecting Valid Software Engineering Data. IEEE Transactions on Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-methodology-for-collecting-valid-software-engineering-data.pdf).  
+1. 📄 Basili, V.R., & Weiss, D.M. (1984). [A Methodology for Collecting Valid Software Engineering Data. IEEE Transactions on Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-methodology-for-collecting-valid-software-engineering-data.pdf).  
    Este artigo apresenta uma metodologia rigorosa para coleta e análise de dados empíricos em engenharia de software, sendo um marco para experimentação controlada.
 
-2. Kitchenham, B., et al. (2002). [An Empirical Study of Maintenance and Development Estimation Accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-empirical-study-of-maintenance-and-development-estimation-accuracy.pdf). The Journal of Systems and Software.  
+2. 📊 Kitchenham, B., et al. (2002). [An Empirical Study of Maintenance and Development Estimation Accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-empirical-study-of-maintenance-and-development-estimation-accuracy.pdf). *The Journal of Systems and Software*.  
    Estudo com 145 projetos que avaliou a precisão de estimativas de esforço e duração feitas por uma empresa. As estimativas usadas nos orçamentos mostraram boa acurácia (63% com erro inferior a 25%) e superaram
    modelos baseados em pontos de função. O trabalho destaca o valor de processos de estimativa bem estruturados na prática industrial.
 
-3. Basili, V.R., Caldiera, G., & Rombach, H.D. (1994). [The Goal Question Metric Approach](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/The-goal-question-metric-approach.pdf). Journal of Software Engineering and Knowledge Engineering.  
+3. 🎯 Basili, V.R., Caldiera, G., & Rombach, H.D. (1994). [The Goal Question Metric Approach](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/The-goal-question-metric-approach.pdf). *Journal of Software Engineering and Knowledge Engineering*.  
    Define um framework para definição sistemática de métricas alinhadas a objetivos de negócios e engenharia.
 
-4. Fenton, N.E., & Neil, M. (1999). [A Critique of Software Defect Prediction Models](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-critique-of-software-defect-prediction-models.pdf). IEEE Transactions on Software Engineering.  
+4. 🐞 Fenton, N.E., & Neil, M. (1999). [A Critique of Software Defect Prediction Models](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-critique-of-software-defect-prediction-models.pdf). *IEEE Transactions on Software Engineering*.  
    Análise crítica dos modelos preditivos de defeitos, ressaltando desafios na validação empírica.
 
-5. Tichy, W.F. (1998). [Should Computer Scientists Experiment More?](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Should-computer-scientists-experiment-more%3F.pdf). IEEE Computer.  
+5. 🧪 Tichy, W.F. (1998). [Should Computer Scientists Experiment More?](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Should-computer-scientists-experiment-more%3F.pdf). *IEEE Computer*.  
    Discussão histórica e crítica sobre a importância da experimentação rigorosa em ciência da computação e engenharia de software.
 
 6. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)  
    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
-7. Runeson, P., & Höst, M. (2009). [Guidelines for conducting and reporting case study research in software engineering. Empirical Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering.pdf).  
+7. 🧾 Runeson, P., & Höst, M. (2009). [Guidelines for conducting and reporting case study research in software engineering. Empirical Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering.pdf).  
    Artigo fundamental para quem deseja conduzir estudos de caso em engenharia de software com rigor científico e validade externa.
 
-8. Dyba, T., & Dingsoyr, T. (2008). [Empirical studies of agile software development: A systematic review](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Empirical-studies-of-agile-software-development-A-systematic-review.pdf). Information and Software Technology.  
+8. 🔄 Dyba, T., & Dingsoyr, T. (2008). [Empirical studies of agile software development: A systematic review](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Empirical-studies-of-agile-software-development-A-systematic-review.pdf). *Information and Software Technology*.  
    Revisão sistemática que analisa evidências empíricas sobre métodos ágeis e seu impacto na produtividade, qualidade e satisfação da equipe.
 
-9. Briand, L.C., Morasca, S., & Basili, V.R. (2002). [An operational process for goal-driven definition of measures](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-operational-process-for-goal-driven-definition.pdf). IEEE Transactions on Software Engineering.  
+9. 📐 Briand, L.C., Morasca, S., & Basili, V.R. (2002). [An operational process for goal-driven definition of measures](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-operational-process-for-goal-driven-definition.pdf). *IEEE Transactions on Software Engineering*.  
    Proposta de um processo sistemático para definir métricas a partir de objetivos organizacionais e necessidades específicas de análise.
+
+10. 📘 Zelkowitz, M.V., & Wallace, D.R. (1998). [Experimental models for validating technology](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Experimental-models-for-validating-technology.pdf). *Computer*.  
+   Apresenta 12 modelos experimentais aplicáveis à engenharia de software para validar novas tecnologias, discutindo como diferentes abordagens afetam a confiabilidade dos resultados empíricos.
 
 -----
 
