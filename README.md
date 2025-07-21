@@ -163,7 +163,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 19. 🔍 Juristo, N., & Moreno, A. M. (2001). [Basics of Software Engineering Experimentation](https://ieeexplore.ieee.org/document/924502). *IEEE Software*.  
     Guia prático e introdutório sobre experimentação em engenharia de software, cobrindo planejamento, desenho experimental e análise dos dados.
 
-29. ⚙️ Briand, L.C., Labiche, Y., & Soccar, S. (2006). [Using Simulation to Support Software Process Improvement: A Controlled Experiment](https://ieeexplore.ieee.org/document/1597737). *IEEE Transactions on Software Engineering*.  
+20. ⚙️ Briand, L.C., Labiche, Y., & Soccar, S. (2006). [Using Simulation to Support Software Process Improvement: A Controlled Experiment](https://ieeexplore.ieee.org/document/1597737). *IEEE Transactions on Software Engineering*.  
     Apresenta um experimento controlado que avalia o uso de simulação para apoiar a melhoria de processos de software, destacando os benefícios e limitações da abordagem.
 
 -----
