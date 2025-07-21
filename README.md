@@ -121,35 +121,60 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 5. 🧪 Tichy, W.F. (1998). [Should Computer Scientists Experiment More?](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Should-computer-scientists-experiment-more%3F.pdf). *IEEE Computer*.  
    Discussão histórica e crítica sobre a importância da experimentação rigorosa em ciência da computação e engenharia de software.
 
-6. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf). *Journal of Software Engineering Research and Development*  
-   Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
-
-7. 🧾 Runeson, P., & Höst, M. (2009). [Guidelines for conducting and reporting case study research in software engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering.pdf). *Empirical Software Engineering*  
+6. 🧾 Runeson, P., & Höst, M. (2009). [Guidelines for conducting and reporting case study research in software engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering.pdf). *Empirical Software Engineering*  
    Artigo fundamental para quem deseja conduzir estudos de caso em engenharia de software com rigor científico e validade externa.
 
-8. 🔄 Dyba, T., & Dingsoyr, T. (2008). [Empirical studies of agile software development: A systematic review](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Empirical-studies-of-agile-software-development-A-systematic-review.pdf). *Information and Software Technology*.  
+7. 🔄 Dyba, T., & Dingsoyr, T. (2008). [Empirical studies of agile software development: A systematic review](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Empirical-studies-of-agile-software-development-A-systematic-review.pdf). *Information and Software Technology*.  
    Revisão sistemática que analisa evidências empíricas sobre métodos ágeis e seu impacto na produtividade, qualidade e satisfação da equipe.
 
-9. 📐 Briand, L.C., Morasca, S., & Basili, V.R. (2002). [An operational process for goal-driven definition of measures](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-operational-process-for-goal-driven-definition.pdf). *IEEE Transactions on Software Engineering*.  
+8. 📐 Briand, L.C., Morasca, S., & Basili, V.R. (2002). [An operational process for goal-driven definition of measures](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-operational-process-for-goal-driven-definition.pdf). *IEEE Transactions on Software Engineering*.  
    Proposta de um processo sistemático para definir métricas a partir de objetivos organizacionais e necessidades específicas de análise.
 
-10. 📘 Zelkowitz, M.V., & Wallace, D.R. (1998). [Experimental models for validating technology](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Experimental-models-for-validating-technology.pdf). *Computer*.  
+9. 📘 Zelkowitz, M.V., & Wallace, D.R. (1998). [Experimental models for validating technology](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Experimental-models-for-validating-technology.pdf). *Computer*.  
     Apresenta 12 modelos experimentais aplicáveis à engenharia de software para validar novas tecnologias, discutindo como diferentes abordagens afetam a confiabilidade dos resultados empíricos.
 
-11. 📄 Kitchenham, B., et al. (2004). [Evidence-Based Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Evidence-based-software-engineering.pdf). *Proceedings of the 26th International Conference on Software Engineering*.  
+10. 📄 Kitchenham, B., et al. (2004). [Evidence-Based Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Evidence-based-software-engineering.pdf). *Proceedings of the 26th International Conference on Software Engineering*.  
     Apresenta os fundamentos da engenharia de software baseada em evidências, discutindo benefícios, viés em experimentos e limites de generalização.
 
-12. 🧪 Sjøberg, D. I. K., Hannay, J. E., Hansen, O., et al. (2005). [A Survey of Controlled Experiments in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-survey-of-controlled-experiments-in-software-engineering.pdf). *IEEE Transactions on Software Engineering*.  
+11. 🧪 Sjøberg, D. I. K., Hannay, J. E., Hansen, O., et al. (2005). [A Survey of Controlled Experiments in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-survey-of-controlled-experiments-in-software-engineering.pdf). *IEEE Transactions on Software Engineering*.  
     Estudo abrangente que analisa mais de 100 experimentos controlados, apontando tendências, deficiências metodológicas e oportunidades para pesquisa empírica mais robusta.
 
-13. 📄 Zazworka, N., et al. (2013). [Comparing Four Approaches for Technical Debt Identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Software Quality Journal*, pp. 1-24.  
+12. 📄 Zazworka, N., et al. (2013). [Comparing Four Approaches for Technical Debt Identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Software Quality Journal*, pp. 1-24.  
     Compara quatro técnicas para identificar dívida técnica no código-fonte, mostrando pouca sobreposição entre elas e destacando a relação entre violações de modularidade e maior incidência de defeitos e mudanças.
 
-14. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Information-needs-in-collocated-software-development-teams.pdf). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
+13. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Information-needs-in-collocated-software-development-teams.pdf). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
     Clássico que investiga as necessidades de informação em equipes de desenvolvimento de software que trabalham fisicamente próximas, ajudando a compreender fluxos de comunicação e colaboração.
 
-15. 📈 Arcuri, A., & Briand, L. (2011). [A Practical Guide for Using Statistical Tests to Assess Randomized Algorithms in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-practical-guide-for-using-statistical-tests-to-assess-randomized-algorithms.pdf). *Empirical Software Engineering*, 16(1), pp. 1–33.  
+14. 📈 Arcuri, A., & Briand, L. (2011). [A Practical Guide for Using Statistical Tests to Assess Randomized Algorithms in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-practical-guide-for-using-statistical-tests-to-assess-randomized-algorithms.pdf). *Empirical Software Engineering*, 16(1), pp. 1–33.  
     Guia prático sobre como aplicar testes estatísticos corretamente na comparação de algoritmos randomizados, com foco em engenharia de software.
+
+-----
+
+###### 🧹 Leituras sugeridas sobre Análise de Código
+
+15. 🧮 Chidamber, S. R., & Kemerer, C. F. (1994). [A Metrics Suite for Object Oriented Design](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-metrics-suite-for-object-oriented-design.pdf). *IEEE Transactions on Software Engineering*.  
+    Artigo seminal que propôs o conjunto de métricas CK (WMC, DIT, NOC, CBO, RFC e LCOM), amplamente utilizadas na avaliação da qualidade de projetos orientados a objetos.
+
+16. 🧼 Marinescu, R. (2004). [Detection Strategies: Metrics-Based Rules for Detecting Design Flaws](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Detection-strategies-metrics-based-rules-for-detecting-design-flaws.pdf). *Proceedings of the 20th IEEE International Conference on Software Maintenance*.  
+    Propõe o uso de métricas orientadas a objetos para formular regras que detectam automaticamente *code smells* arquiteturais e de design em sistemas Java.
+
+17. 📚 Zakeri-Nasrabadi, M., Parsa, S., Esmaili, E., & Palomba, F. (2023). [A Systematic Literature Review on the Code Smells Datasets and Validation Mechanisms](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-systematic-literature-review-on-the-code-smells.pdf). *Journal of Software: Evolution and Process*.  
+    Revisão sistemática de 45 conjuntos de dados utilizados para validar ferramentas de detecção de *code smells*. Os autores analisam propriedades como tamanho, tipos de *smells* representados, balanceamento de amostras e suporte a severidade. O estudo mostra que a maioria dos datasets cobre apenas três tipos (God Class, Long Method e Feature Envy), com vários *smells* do catálogo de Fowler e Beck ainda não representados.
+
+18. 🕵️ Tufano, M., Palomba, F., Bavota, G., De Lucia, A., Penta, M. D., & Oliveto, R. (2017). [When and Why Your Code Starts to Smell Bad](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/When-and-why-your-code-starts-to-smell-bad.pdf). *Proceedings of the IEEE/ACM International Conference on Software Engineering (ICSE)*.  
+    Investiga a origem dos *code smells* em repositórios Java, revelando que muitos surgem logo na introdução do código e não como resultado de manutenção ou degradação gradual.
+
+19. 🧭 Palomba, F., Bavota, G., Di Penta, M., Fasano, F., Oliveto, R., & De Lucia, A. (2017). [On the Diffuseness and the Impact on Maintainability of Code Smells: A Large Scale Empirical Investigation](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-diffuseness-and-the-impact-on-maintainability-of-code-smells-a-large-scale-empirical-investigation.pdf). *Empirical Software Engineering*.  
+    Estudo empírico com 395 versões de 30 projetos open source, analisando 13 tipos de *code smells*. Conclui que *smells* como *Complex Class* são amplamente difundidos e aumentam a propensão a mudanças e defeitos no código.
+
+20. 🔍 Agnihotri, M., & Chug, A. (2020). [A Systematic Literature Survey of Software Metrics, Code Smells and Refactoring Techniques](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-systematic-literature-survey-of-software-metrics-code-smells-and-refactoring-techniques.pdf). *Journal of King Saud University - Computer and Information Sciences*.  
+    Revisão de 68 estudos sobre *code smells*, técnicas de refatoração e seu impacto em métricas como acoplamento e complexidade. Os *smells* mais abordados foram *long method*, *feature envy* e *data class*, sendo o *extract class* a técnica de refatoração mais aplicada.
+    
+21. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf). *Journal of Software Engineering Research and Development*  
+   Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
+
+22. 🧯 Bavota, G., Oliveto, R., Gethers, M., Poshyvanyk, D., & De Lucia, A. (2015). [An Empirical Evaluation of the Impact of Code Smells on Software Maintainability](https://doi.org/10.1007/s10664-013-9286-8). *Empirical Software Engineering*.  
+    Estudo empírico que avalia como diferentes *code smells* afetam manutenibilidade, esforço de modificação e propensão a defeitos.
 
 -----
 
