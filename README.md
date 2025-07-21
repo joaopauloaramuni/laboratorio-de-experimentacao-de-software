@@ -110,7 +110,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
    Este artigo apresenta uma metodologia rigorosa para coleta e análise de dados empíricos em engenharia de software, sendo um marco para experimentação controlada.
 
 2. 📊 Kitchenham, B., et al. (2002). [An Empirical Study of Maintenance and Development Estimation Accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-empirical-study-of-maintenance-and-development-estimation-accuracy.pdf). *The Journal of Systems and Software*.  
-   Estudo com 145 projetos que avaliou a precisão de estimativas de esforço e duração feitas por uma empresa. As estimativas usadas nos orçamentos mostraram boa acurácia (63% com erro inferior a 25%) e superaram modelos baseados em pontos de função. O trabalho destaca o valor de processos de estimativa bem estruturados na prática industrial.
+   Estudo empírico que mostra boa acurácia em estimativas feitas por uma empresa, superando modelos por pontos de função.
 
 3. 🎯 Basili, V.R., Caldiera, G., & Rombach, H.D. (1994). [The Goal Question Metric Approach](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/The-goal-question-metric-approach.pdf). *Journal of Software Engineering and Knowledge Engineering*.  
    Define um framework para definição sistemática de métricas alinhadas a objetivos de negócios e engenharia.
