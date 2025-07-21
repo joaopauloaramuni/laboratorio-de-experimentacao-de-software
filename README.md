@@ -110,8 +110,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
    Este artigo apresenta uma metodologia rigorosa para coleta e análise de dados empíricos em engenharia de software, sendo um marco para experimentação controlada.
 
 2. 📊 Kitchenham, B., et al. (2002). [An Empirical Study of Maintenance and Development Estimation Accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/An-empirical-study-of-maintenance-and-development-estimation-accuracy.pdf). *The Journal of Systems and Software*.  
-   Estudo com 145 projetos que avaliou a precisão de estimativas de esforço e duração feitas por uma empresa. As estimativas usadas nos orçamentos mostraram boa acurácia (63% com erro inferior a 25%) e superaram
-   modelos baseados em pontos de função. O trabalho destaca o valor de processos de estimativa bem estruturados na prática industrial.
+   Estudo com 145 projetos que avaliou a precisão de estimativas de esforço e duração feitas por uma empresa. As estimativas usadas nos orçamentos mostraram boa acurácia (63% com erro inferior a 25%) e superaram modelos baseados em pontos de função. O trabalho destaca o valor de processos de estimativa bem estruturados na prática industrial.
 
 3. 🎯 Basili, V.R., Caldiera, G., & Rombach, H.D. (1994). [The Goal Question Metric Approach](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/The-goal-question-metric-approach.pdf). *Journal of Software Engineering and Knowledge Engineering*.  
    Define um framework para definição sistemática de métricas alinhadas a objetivos de negócios e engenharia.
@@ -122,7 +121,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 5. 🧪 Tichy, W.F. (1998). [Should Computer Scientists Experiment More?](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Should-computer-scientists-experiment-more%3F.pdf). *IEEE Computer*.  
    Discussão histórica e crítica sobre a importância da experimentação rigorosa em ciência da computação e engenharia de software.
 
-6. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf)  
+6. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf).  
    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
 7. 🧾 Runeson, P., & Höst, M. (2009). [Guidelines for conducting and reporting case study research in software engineering. Empirical Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering.pdf).  
@@ -135,7 +134,37 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
    Proposta de um processo sistemático para definir métricas a partir de objetivos organizacionais e necessidades específicas de análise.
 
 10. 📘 Zelkowitz, M.V., & Wallace, D.R. (1998). [Experimental models for validating technology](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Experimental-models-for-validating-technology.pdf). *Computer*.  
-   Apresenta 12 modelos experimentais aplicáveis à engenharia de software para validar novas tecnologias, discutindo como diferentes abordagens afetam a confiabilidade dos resultados empíricos.
+    Apresenta 12 modelos experimentais aplicáveis à engenharia de software para validar novas tecnologias, discutindo como diferentes abordagens afetam a confiabilidade dos resultados empíricos.
+
+11. 📄 Kitchenham, B., et al. (2004). [Evidence-Based Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Evidence-based-software-engineering.pdf). *Proceedings of the 26th International Conference on Software Engineering*.  
+    Descreve como a engenharia de software pode se beneficiar da abordagem baseada em evidências, destacando desafios como o viés em experimentos e a dificuldade de prever comportamento pós-implantação devido às peculiaridades do desenvolvimento de software.
+
+12. 🧪 Sjøberg, D. I. K., Hannay, J. E., Hansen, O., et al. (2005). [A Survey of Controlled Experiments in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-survey-of-controlled-experiments-in-software-engineering.pdf). *IEEE Transactions on Software Engineering*.  
+    Estudo abrangente que analisa mais de 100 experimentos controlados, apontando tendências, deficiências metodológicas e oportunidades para pesquisa empírica mais robusta.
+
+13. 📄 Alves, T., Izurieta, C., & Seaman, C. (2016). [Comparing four approaches for technical debt identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Empirical Software Engineering*.  
+    Compara quatro técnicas diferentes para identificar dívida técnica em código-fonte e analisa se essas técnicas apontam para os mesmos problemas. O estudo, aplicado ao Apache Hadoop, mostra pouca sobreposição entre as técnicas e revela correlação entre violações de modularidade e maior propensão a defeitos e mudanças.
+
+14. 📄 Zazworka, N., et al. (2013). [Comparing Four Approaches for Technical Debt Identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Software Quality Journal*, pp. 1-24.  
+    Compara quatro técnicas para identificar dívida técnica no código-fonte, mostrando pouca sobreposição entre elas e destacando a relação entre violações de modularidade e maior incidência de defeitos e mudanças.
+
+15. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://doi.org/10.1109/ICSE.2007.50). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
+    Clássico que investiga as necessidades de informação em equipes de desenvolvimento de software que trabalham fisicamente próximas, ajudando a compreender fluxos de comunicação e colaboração.
+
+16. 🔁 Ralph, P., & Tempero, E. (2021). [Behavioral Software Engineering: A Manifesto](https://doi.org/10.1016/j.jss.2020.110897). *Journal of Systems and Software*.  
+    Manifesto que destaca a importância de focar no comportamento humano e cognitivo na engenharia de software, defendendo abordagens mais centradas nas pessoas.
+
+17. 🧪 Wohlin, C., Runeson, P., Höst, M., et al. (2012). [Experimentation in Software Engineering](https://link.springer.com/book/10.1007/978-3-642-29044-2). *Springer*.  
+    Livro essencial que aborda métodos, técnicas e desafios da experimentação em engenharia de software, com enfoque em experimentos controlados, estudos de caso e revisões sistemáticas.
+
+18. 🧩 Erdogmus, H., Favaro, J., & Strigel, W. (2005). [Using the Personal Software Process (PSP) to Understand the Impact of Process Improvement](https://ieeexplore.ieee.org/document/1461623). *IEEE Software*.  
+    Analisa o impacto da melhoria de processos individuais na qualidade do software, baseado em dados empíricos coletados via PSP.
+
+19. 🔍 Juristo, N., & Moreno, A. M. (2001). [Basics of Software Engineering Experimentation](https://ieeexplore.ieee.org/document/924502). *IEEE Software*.  
+    Guia prático e introdutório sobre experimentação em engenharia de software, cobrindo planejamento, desenho experimental e análise dos dados.
+
+20. ⚙️ Briand, L.C., Labiche, Y., & Soccar, S. (2006). [Using Simulation to Support Software Process Improvement: A Controlled Experiment](https://ieeexplore.ieee.org/document/1597737). *IEEE Transactions on Software Engineering*.  
+    Apresenta um experimento controlado que avalia o uso de simulação para apoiar a melhoria de processos de software, destacando os benefícios e limitações da abordagem.
 
 -----
 
