@@ -191,7 +191,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
     Estudo sobre *code smells* em scripts de build (Maven, Gradle, CMake e Makefiles), com análise de 5882 scripts de 4877 repositórios. A ferramenta Sniffer identificou 13 tipos de smells, somando 10.895 ocorrências. Oferece recomendações para melhorar a manutenção e confiabilidade dos scripts.
 
 27. 🔍 Balla, S., Degueule, T., Robbes, R., Falleri, J.-R., & Zacchiroli, S. (2025). [Automatic Classification of Software Repositories: a Systematic Mapping Study](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Automatic-classification-of-software-repositories.pdf). *International Conference on Evaluation and Assessment in Software Engineering (EASE 2025)*, Jun 2025, Istanbul, Turkey.  
-    Revisão sistemática de 43 estudos (2002–2023) sobre classificação automática de repositórios de software usando aprendizado de máquina. Analisa objetivos, entradas, saídas, treinamentos e avaliações dos estudos. Identifica crescimento no uso para recomendação e descoberta de repositórios, mas pouca exploração para mineração de software. Aponta ausência de benchmarks, datasets e métricas padronizadas como desafio para comparações entre abordagens.
+    Revisão sistemática de 43 estudos (2002–2023) sobre classificação automática de repositórios de software usando aprendizado de máquina. Analisa objetivos, entradas, saídas, treinamentos e avaliações dos estudos. Identifica crescimento no uso para recomendação e descoberta de repositórios, mas pouca exploração para mineração de software.
 
 -----
 
