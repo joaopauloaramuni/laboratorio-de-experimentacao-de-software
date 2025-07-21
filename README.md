@@ -137,7 +137,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
     Apresenta 12 modelos experimentais aplicáveis à engenharia de software para validar novas tecnologias, discutindo como diferentes abordagens afetam a confiabilidade dos resultados empíricos.
 
 11. 📄 Kitchenham, B., et al. (2004). [Evidence-Based Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Evidence-based-software-engineering.pdf). *Proceedings of the 26th International Conference on Software Engineering*.  
-    Descreve como a engenharia de software pode se beneficiar da abordagem baseada em evidências, destacando desafios como o viés em experimentos e a dificuldade de prever comportamento pós-implantação devido às peculiaridades do desenvolvimento de software.
+    Apresenta os fundamentos da engenharia de software baseada em evidências, discutindo benefícios, viés em experimentos e limites de generalização.
 
 12. 🧪 Sjøberg, D. I. K., Hannay, J. E., Hansen, O., et al. (2005). [A Survey of Controlled Experiments in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-survey-of-controlled-experiments-in-software-engineering.pdf). *IEEE Transactions on Software Engineering*.  
     Estudo abrangente que analisa mais de 100 experimentos controlados, apontando tendências, deficiências metodológicas e oportunidades para pesquisa empírica mais robusta.
