@@ -173,7 +173,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 21. 👃 Virgínio, T. et al. (2021). [On the test smells detection: an empirical study on the JNose Test accuracy](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/On-the-test-smells-detection.pdf). *Journal of Software Engineering Research and Development*.  
    Estudo que avalia a acurácia do JNose na detecção de *test smells* em código Java. Útil para entender limitações e implicações da qualidade dos testes automatizados.
 
-###### 2025
+###### 📅 2025
 
 22. 🤖 Recupito, G., Giordano, G., Ferrucci, F., Di Nucci, D., & Palomba, F. (2025). [When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/When-code-smells-meet-ML.pdf). *Empirical Software Engineering: Volume 30, article number 139*.  
     Estudo que investiga *code smells* específicos de sistemas baseados em Machine Learning. Analisa sua prevalência, evolução e remoção em mais de 400 mil commits de 337 projetos reais, usando a ferramenta CodeSmile para detecção automatizada.
@@ -189,6 +189,9 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 26. 🧱 Tamanna, M., Chandrani, Y., Burrows, M., Wroblewski, B., Williams, L., & Wermke, D. (2025). [Build It Clean: Large-Scale Detection of Code Smells in Build Scripts](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Build-it-clean-large-scale-detection-of-code-smells-in-build-scripts.pdf). *arXiv preprint arXiv:2506.17948*.  
     Estudo sobre *code smells* em scripts de build (Maven, Gradle, CMake e Makefiles), com análise de 5882 scripts de 4877 repositórios. A ferramenta Sniffer identificou 13 tipos de smells, somando 10.895 ocorrências. Oferece recomendações para melhorar a manutenção e confiabilidade dos scripts.
+
+27. 🔍 Balla, S., Degueule, T., Robbes, R., Falleri, J.-R., & Zacchiroli, S. (2025). [Automatic Classification of Software Repositories: a Systematic Mapping Study](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Automatic-classification-of-software-repositories.pdf). *International Conference on Evaluation and Assessment in Software Engineering (EASE 2025)*, Jun 2025, Istanbul, Turkey.  
+    Revisão sistemática de 43 estudos (2002–2023) sobre classificação automática de repositórios de software usando aprendizado de máquina. Analisa objetivos, entradas, saídas, treinamentos e avaliações dos estudos. Identifica crescimento no uso para recomendação e descoberta de repositórios, mas pouca exploração para mineração de software. Aponta ausência de benchmarks, datasets e métricas padronizadas como desafio para comparações entre abordagens.
 
 -----
 
