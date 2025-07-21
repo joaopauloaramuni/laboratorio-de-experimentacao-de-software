@@ -181,7 +181,9 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
     
 24. 📈 Kurmangali, A., Rana, M. E., & Ab Rahman, W. N. W. (2022). [Impact of Abstract Factory and Decorator Design Patterns on Software Maintainability: Empirical Evaluation using CK Metrics](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Impact-of-abstract-factory-and-decorator-design-patterns-on-software-maintainability.pdf). *2022 International Conference on Decision Aid Sciences and Applications (DASA)*, 23–25 March.
     Estudo empírico que avalia o impacto dos padrões Abstract Factory e Decorator na manutenibilidade de software, usando métricas CK. Os resultados mostram melhoria em atributos de qualidade após a aplicação dos padrões, reforçando seu valor em projetos orientados a objetos.
-    
+
+-----
+
 ###### 📅 2025
 
 25. 🤖 Recupito, G., Giordano, G., Ferrucci, F., Di Nucci, D., & Palomba, F. (2025). [When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/When-code-smells-meet-ML.pdf). *Empirical Software Engineering: Volume 30, article number 139*.  
