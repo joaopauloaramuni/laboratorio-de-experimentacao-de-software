@@ -177,7 +177,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
     Estudo empírico que investiga a relação entre as métricas CK (Chidamber & Kemerer) de design orientado a objetos e a incidência de defeitos em software. Os resultados indicam que métricas como CBO e WMC têm forte correlação com defeitos, sugerindo seu valor preditivo em qualidade de software.
     
 23. 📄 Destefanis, G., Counsell, S., Concas, G., & Tonelli, R. (2014). [Software Metrics in Agile Software: An Empirical Study](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Software-metrics-in-agile-software-an-empirical-study.pdf). *Agile Processes in Software Engineering and Extreme Programming (XP 2014)*, pp. 157–170.  
-    Estudo empírico que compara a distribuição de métricas de software (como LOC e métricas CK) em sistemas orientados a objetos desenvolvidos com metodologias ágeis e tradicionais. Os resultados indicam que não há diferenças estatísticas significativas entre as distribuições de métricas nos dois tipos de abordagem, sugerindo que o estilo de desenvolvimento (ágil ou plan-driven) não afeta diretamente os padrões estruturais do código.
+    Análise empírica que mostra que métricas de software (como LOC e métricas CK) têm distribuições semelhantes em sistemas ágeis e tradicionais, sugerindo que a metodologia usada não afeta significativamente a estrutura do código.
 
 ###### 📅 2025
 
