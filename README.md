@@ -142,13 +142,10 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 12. 🧪 Sjøberg, D. I. K., Hannay, J. E., Hansen, O., et al. (2005). [A Survey of Controlled Experiments in Software Engineering](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/A-survey-of-controlled-experiments-in-software-engineering.pdf). *IEEE Transactions on Software Engineering*.  
     Estudo abrangente que analisa mais de 100 experimentos controlados, apontando tendências, deficiências metodológicas e oportunidades para pesquisa empírica mais robusta.
 
-13. 📄 Alves, T., Izurieta, C., & Seaman, C. (2016). [Comparing four approaches for technical debt identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Empirical Software Engineering*.  
-    Compara quatro técnicas diferentes para identificar dívida técnica em código-fonte e analisa se essas técnicas apontam para os mesmos problemas. O estudo, aplicado ao Apache Hadoop, mostra pouca sobreposição entre as técnicas e revela correlação entre violações de modularidade e maior propensão a defeitos e mudanças.
-
-14. 📄 Zazworka, N., et al. (2013). [Comparing Four Approaches for Technical Debt Identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Software Quality Journal*, pp. 1-24.  
+13. 📄 Zazworka, N., et al. (2013). [Comparing Four Approaches for Technical Debt Identification](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Comparing-four-approaches-for-technical-debt-identification.pdf). *Software Quality Journal*, pp. 1-24.  
     Compara quatro técnicas para identificar dívida técnica no código-fonte, mostrando pouca sobreposição entre elas e destacando a relação entre violações de modularidade e maior incidência de defeitos e mudanças.
 
-15. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Information-needs-in-collocated-software-development-teams.pdf). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
+14. 🧠 Ko, A. J., DeLine, R., & Venolia, G. (2007). [Information Needs in Collocated Software Development Teams](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/ARTIGOS/Information-needs-in-collocated-software-development-teams.pdf). *Proceedings of the International Conference on Software Engineering (ICSE)*.  
     Clássico que investiga as necessidades de informação em equipes de desenvolvimento de software que trabalham fisicamente próximas, ajudando a compreender fluxos de comunicação e colaboração.
 
 -----
