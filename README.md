@@ -273,6 +273,7 @@ GraphQL é uma linguagem de consulta desenvolvida pelo Facebook que permite soli
 Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
 
 - 🗺️ [Roadmap GraphQL - Roadmap.sh](https://roadmap.sh/graphql)
+- 🐍 Veja também o [Roadmap Python - Roadmap.sh](https://roadmap.sh/python)
 
 -----
 
