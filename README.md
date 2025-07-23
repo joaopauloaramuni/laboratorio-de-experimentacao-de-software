@@ -268,6 +268,12 @@ GraphQL é uma linguagem de consulta desenvolvida pelo Facebook que permite soli
 - [Documentação da API do GraphQL do GitHub](https://docs.github.com/pt/graphql)
 - [The GraphQL Python community](https://github.com/graphql-python)
 
+###### 🏗️ Roadmap GraphQL
+
+Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
+
+- 🗺️ [Roadmap GraphQL - Roadmap.sh](https://roadmap.sh/graphql)
+
 -----
 
 ##### 📊 Bibliotecas Python para análise de dados
