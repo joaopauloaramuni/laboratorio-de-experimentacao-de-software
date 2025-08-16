@@ -33,29 +33,6 @@ O **NVD**, mantido pelo NIST, fornece **informações centralizadas e estruturad
 
 ---
 
-## 📑 Sumário
-
-- [Recursos](#recursos)
-- [Estrutura do código](#estrutura-do-código)
-- [Requisitos](#requisitos)
-- [Instalação](#instalação)
-- [Como usar](#como-usar)
-  - [Buscar por palavra-chave](#buscar-por-palavra-chave)
-  - [Buscar por ID de CVE](#buscar-por-id-de-cve)
-  - [Buscar por CPE](#buscar-por-cpe)
-  - [Buscar por intervalo de **publicação**](#buscar-por-intervalo-de-publicação)
-  - [Paginar grandes coleções](#paginar-grandes-coleções)
-  - [Histórico de mudanças de um CVE](#histórico-de-mudanças-de-um-cve)
-  - [Transformar em DataFrame](#transformar-em-dataframe)
-  - [Filtrar e ordenar no DataFrame](#filtrar-e-ordenar-no-dataframe)
-- [Formato de datas (ISO-8601 estendido)](#formato-de-datas-iso8601-estendido)
-- [Boas práticas e limites da API](#boas-práticas-e-limites-da-api)
-- [Extensões sugeridas](#extensões-sugeridas)
-- [Erros comuns](#erros-comuns)
-- [Licença](#licença)
-
----
-
 ## 🛠️ Recursos
 
 - 🔎 **Consultas**:
