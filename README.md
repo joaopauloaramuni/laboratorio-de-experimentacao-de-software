@@ -46,7 +46,10 @@ Disciplina do curso de Engenharia de Software da PUC Minas
   Obra clássica que aborda de forma abrangente os principais conceitos, processos e práticas da engenharia de software, amplamente utilizada em cursos e na indústria.
 
 - 📘 [Engenharia de Software Moderna - Marco Tulio Valente](https://engsoftmoderna.info/)  
-  *Livro gratuito e atualizado que trata da engenharia de software com foco em práticas modernas, como integração contínua, microserviços e DevOps, com exemplos em Java e Python.*
+  Livro gratuito e atualizado que trata da engenharia de software com foco em práticas modernas, como integração contínua, microserviços e DevOps, com exemplos em Java e Python.
+   
+   - 🎵 [Podcast / Audiobook no Spotify](https://open.spotify.com/show/4yEKBtRMbtwLtgXP8Gq0Fa)  
+     Engenharia de Software Moderna está também disponível no formato de podcast, com resumos de seções do livro gerados por IA por meio do NotebookLM do Google.
 
 - 📚 [IEEE SWEBOK – Software Engineering Body of Knowledge](https://www.computer.org/education/bodies-of-knowledge/software-engineering)  
   - [PDF](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/SWEBOK/swebok-v4.pdf) - Guia oficial do IEEE que organiza e descreve o corpo de conhecimento essencial da engenharia de software, servindo como referência para profissionais, educadores e certificações.
