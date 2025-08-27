@@ -157,13 +157,11 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 **15.** 🌍 Wachs, J., Nitecki, M., Schueller, W., & Polleres, A. *The Geography of Open Source Software: Evidence from GitHub*.  
 
-   - **15.1** 📄 Wachs, J., Nitecki, M., Schueller, W., & Polleres, A. (2022). *The Geography of Open Source Software: Evidence from GitHub*.  
-  *Technological Forecasting and Social Change, 176*, 121478.  
+   - **15.1** 📄 Wachs, J., Nitecki, M., Schueller, W., & Polleres, A. (2022). *The Geography of Open Source Software: Evidence from GitHub*. *Technological Forecasting and Social Change, 176*, 121478.  
   ➤ Publicado na revista *Technological Forecasting and Social Change* (Elsevier), março de 2022, com 17 páginas. O artigo geolocaliza mais de meio milhão de contribuidores ativos do GitHub em 2021, mostrando crescimento da participação da Ásia, América Latina e Europa Oriental, mas também forte concentração regional dentro dos países. Defende políticas locais para apoiar redes de desenvolvedores de OSS.  
   [Link para o artigo](https://doi.org/10.1016/j.techfore.2022.121478)  
 
-   - **15.2** 📊 Wachs, J., Nitecki, M., Schueller, W., & Polleres, A. (2021). *The Geography of Open Source Software: Evidence from GitHub*.  
-  arXiv:2107.03200 [cs.SI]. *Computer Science > Social and Information Networks*.  
+   - **15.2** 📊 Wachs, J., Nitecki, M., Schueller, W., & Polleres, A. (2021). *The Geography of Open Source Software: Evidence from GitHub*. arXiv:2107.03200 [cs.SI]. *Computer Science > Social and Information Networks*.  
   ➤ Preprint disponível no arXiv, submetido em 7 de julho de 2021 (v1) e revisado em 12 de outubro de 2021 (v2), com 28 páginas. A versão expandida mantém o foco na distribuição geográfica dos desenvolvedores de OSS no GitHub, discutindo concentração em polos regionais e sugerindo que políticas públicas locais são mais eficazes que estratégias nacionais.  
   [Link para o preprint](https://arxiv.org/abs/2107.03200)  
 
