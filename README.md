@@ -163,7 +163,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
    - **15.2** 📊 Wachs, J., Nitecki, M., Schueller, W., & Polleres, A. (2021). [The Geography of Open Source Software: Evidence from GitHub](https://arxiv.org/abs/2107.03200). arXiv:2107.03200 [cs.SI]. *Computer Science > Social and Information Networks*.  
   ➤ Preprint disponível no arXiv, submetido em 7 de julho de 2021 (v1) e revisado em 12 de outubro de 2021 (v2), com 28 páginas. A versão expandida mantém o foco na distribuição geográfica dos desenvolvedores de OSS no GitHub, discutindo concentração em polos regionais e sugerindo que políticas públicas locais são mais eficazes que estratégias nacionais.
 
-   - *Dados e scripts disponíveis no GitHub:*  
+   - :octocat: *Dados e scripts disponíveis no GitHub:*  
   ➤ Repositório do pipeline de geocodificação e dados agregados usado no estudo: [Geography-of-Open-Source-Software](https://github.com/n1tecki/Geography-of-Open-Source-Software)  
 
 -----
