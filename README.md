@@ -6,7 +6,7 @@
 
 # Repo Laboratório de Experimentação de Software
 
-![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/laboratorio-de-experimentacao-de-software?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/laboratorio-de-experimentacao-de-software?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/laboratorio-de-experimentacao-de-software?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/laboratorio-de-experimentacao-de-software?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/laboratorio-de-experimentacao-de-software?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/laboratorio-de-experimentacao-de-software?style=for-the-badge)
 
 Disciplina do curso de Engenharia de Software da PUC Minas
 
