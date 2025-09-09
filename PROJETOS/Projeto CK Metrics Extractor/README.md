@@ -135,7 +135,7 @@ Essas duas tabelas mostram o uso de **variáveis e campos** ao longo do código,
 - [Python 3.8+](https://www.python.org/)
 - [GitPython](https://gitpython.readthedocs.io/)
 - [pandas](https://pandas.pydata.org/)
-- [Java 8+](https://www.oracle.com/java/)
+- [Java JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - [Apache Maven](https://maven.apache.org/) — necessário para compilar o JAR do CK
 - [CK Tool JAR](https://github.com/mauricioaniche/ck)
 
