@@ -178,7 +178,8 @@ mvn clean package
 
 O JAR estará em: `ck/target/ck-0.7.1-SNAPSHOT-jar-with-dependencies.jar`
 
-> 💡 É necessário ter o Java 8+ e o Maven instalados para compilar o projeto CK.
+> 💡 É necessário ter o Java 17 e o Maven instalados para compilar o projeto CK.
+> 🔗 Como alternativa, você pode baixar o JAR já compilado diretamente [nesta pasta](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20CK%20Metrics%20Extractor/CK).
 
 ---
 
