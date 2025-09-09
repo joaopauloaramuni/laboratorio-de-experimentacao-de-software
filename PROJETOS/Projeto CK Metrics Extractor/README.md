@@ -166,7 +166,9 @@ source .venv/bin/activate
 
 ---
 
-## 🚀 Como executar o projeto
+## 🚀 Executando o projeto
+
+### 1️⃣ Obter o JAR do CK Tool
 
 Você tem três opções para obter o **JAR do CK Tool**:
 
@@ -213,7 +215,38 @@ Após a execução, o arquivo `ck.jar` estará disponível no diretório atual (
 
 ---
 
-## ▶️ Como rodar o projeto
+### 🌿 Sobre a *default branch* do repositório
+
+Nem todo repositório no GitHub usa `main` ou `master` como branch padrão. Alguns podem ter nomes diferentes, como `develop`, `trunk` ou `release`. Saber a branch principal é importante, pois o CK Metrics Extractor precisa dela para clonar e analisar o código corretamente.
+
+### Como o script trata a default branch
+
+O script Python utiliza a **GitHub GraphQL API** para identificar a branch padrão de cada repositório, consultando o campo `defaultBranchRef`:
+
+```graphql
+defaultBranchRef {
+  name
+}
+```
+
+No código, isso é feito assim:
+
+```python
+default_branch = 'main'
+if repo.get('defaultBranchRef') and repo['defaultBranchRef']:
+    default_branch = repo['defaultBranchRef']['name']
+```
+
+Dessa forma:
+- O script **não depende de comandos Git locais** como `git remote show origin`.
+- Ele obtém a default branch **diretamente do GitHub**, garantindo que mesmo repositórios com branches não padrão sejam analisados corretamente.
+- O fallback `main` é usado apenas se o repositório não fornecer `defaultBranchRef`.
+
+> 💡 Isso torna o processo de coleta de métricas mais confiável e automatizado.
+
+---
+
+### 2️⃣ Rodar o script Python
 
 ```bash
 python ck_metrics_extractor.py
