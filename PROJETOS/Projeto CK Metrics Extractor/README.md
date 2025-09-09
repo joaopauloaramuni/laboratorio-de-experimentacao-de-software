@@ -174,7 +174,7 @@ Você tem três opções para obter o **JAR do CK Tool**:
 
 ---
 
-### ⚙️ Opção 1: Compilar manualmente (Java 17 + Maven)
+#### ⚙️ Opção 1: Compilar manualmente (Java 17 + Maven)
 
 ```bash
 git clone https://github.com/mauricioaniche/ck.git
@@ -189,7 +189,7 @@ O JAR será gerado em:
 
 ---
 
-### ⬇️ Opção 2: Baixar o JAR já compilado
+#### ⬇️ Opção 2: Baixar o JAR já compilado
 
 Você pode baixar diretamente o JAR já gerado [nesta pasta](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20CK%20Metrics%20Extractor/ck/target).
 
@@ -198,7 +198,7 @@ Após o download, lembre-se de colocá-lo no diretório:
 
 ---
 
-### 🐳 Opção 3: Gerar o JAR usando Docker (sem instalar Java/Maven)
+#### 🐳 Opção 3: Gerar o JAR usando Docker (sem instalar Java/Maven)
 
 Se não quiser instalar o **Java 17** e o **Maven**, você pode usar Docker:
 
@@ -212,37 +212,6 @@ Se não quiser instalar o **Java 17** e o **Maven**, você pode usar Docker:
 ```
 
 Após a execução, o arquivo `ck.jar` estará disponível no diretório atual (`$PWD`).
-
----
-
-### 🌿 Sobre a *default branch* do repositório
-
-Nem todo repositório no GitHub usa `main` ou `master` como branch padrão. Alguns podem ter nomes diferentes, como `develop`, `trunk` ou `release`. Saber a branch principal é importante, pois o CK Metrics Extractor precisa dela para clonar e analisar o código corretamente.
-
-### Como o script trata a default branch
-
-O script Python utiliza a **GitHub GraphQL API** para identificar a branch padrão de cada repositório, consultando o campo `defaultBranchRef`:
-
-```graphql
-defaultBranchRef {
-  name
-}
-```
-
-No código, isso é feito assim:
-
-```python
-default_branch = 'main'
-if repo.get('defaultBranchRef') and repo['defaultBranchRef']:
-    default_branch = repo['defaultBranchRef']['name']
-```
-
-Dessa forma:
-- O script **não depende de comandos Git locais** como `git remote show origin`.
-- Ele obtém a default branch **diretamente do GitHub**, garantindo que mesmo repositórios com branches não padrão sejam analisados corretamente.
-- O fallback `main` é usado apenas se o repositório não fornecer `defaultBranchRef`.
-
-> 💡 Isso torna o processo de coleta de métricas mais confiável e automatizado.
 
 ---
 
@@ -326,6 +295,61 @@ Metrics extracted!!!
 
 [5 rows x 5 columns]
 ```
+
+---
+
+## 🌿 Sobre a *default branch* do repositório
+
+Nem todo repositório no GitHub usa `main` ou `master` como branch padrão. Alguns podem ter nomes diferentes, como `develop`, `trunk` ou `release`. Saber a branch principal é importante, pois o CK Metrics Extractor precisa dela para clonar e analisar o código corretamente.
+
+#### Como o script trata a default branch
+
+O script Python utiliza a **GitHub GraphQL API** para identificar a branch padrão de cada repositório, consultando o campo `defaultBranchRef`:
+
+```graphql
+defaultBranchRef {
+  name
+}
+```
+
+No código, isso é feito assim:
+
+```python
+default_branch = 'main'
+if repo.get('defaultBranchRef') and repo['defaultBranchRef']:
+    default_branch = repo['defaultBranchRef']['name']
+```
+
+Dessa forma:
+- O script **não depende de comandos Git locais** como `git remote show origin`.
+- Ele obtém a default branch **diretamente do GitHub**, garantindo que mesmo repositórios com branches não padrão sejam analisados corretamente.
+- O fallback `main` é usado apenas se o repositório não fornecer `defaultBranchRef`.
+
+> 💡 Isso torna o processo de coleta de métricas mais confiável e automatizado.
+
+---
+
+## 💡 Sugestão: Download de repositórios via ZIP
+
+Atualmente, o CK Metrics Extractor faz o **clone completo do repositório** usando Git, o que inclui a pasta `.git` com todo o histórico de commits.  
+Em repositórios grandes ou antigos, isso pode deixar o download **mais pesado e lento**.
+
+Como alternativa, você poderia baixar o código diretamente como um **arquivo ZIP** da *default branch*:
+
+```python
+zip_url = f"https://github.com/{repo_owner}/{repo_name}/archive/refs/heads/{default_branch}.zip"
+```
+
+### Vantagens do download via ZIP
+
+- Mais rápido, pois não traz o histórico Git.
+- Menos espaço em disco ocupado.
+- Ideal para análises estáticas de código, quando você não precisa do histórico de commits.
+- Ideal para quem precisa analisar **centenas de repositórios** rapidamente.
+
+> ⚠️ Observação: esta é apenas uma sugestão de melhoria; o script atual ainda faz o clone completo via Git.
+
+---
 
 ## 📚 Documentação e Links úteis
 
