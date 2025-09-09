@@ -168,7 +168,11 @@ source .venv/bin/activate
 
 ## 🚀 Como executar o projeto
 
-### 1. Baixe o CK Tool e gere o JAR
+Você tem três opções para obter o **JAR do CK Tool**:
+
+---
+
+### ⚙️ Opção 1: Compilar manualmente (Java 17 + Maven)
 
 ```bash
 git clone https://github.com/mauricioaniche/ck.git
@@ -176,16 +180,40 @@ cd ck
 mvn clean package
 ```
 
-O JAR estará em: `ck/target/ck-0.7.1-SNAPSHOT-jar-with-dependencies.jar`
+O JAR será gerado em:  
+`ck/target/ck-0.7.1-SNAPSHOT-jar-with-dependencies.jar`
 
-> 💡 É necessário ter o Java 17 e o Maven instalados para compilar o projeto CK.
-> 🔗 Como alternativa, você pode baixar o JAR já compilado diretamente [nesta pasta](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20CK%20Metrics%20Extractor/ck/target).
-> Após o download, lembre-se de colocá-lo na pasta:  
-> `ck/target/`
+> 💡 É necessário ter o **Java 17** e o **Maven** instalados na sua máquina.
 
 ---
 
-### 2. Execute o script Python
+### ⬇️ Opção 2: Baixar o JAR já compilado
+
+Você pode baixar diretamente o JAR já gerado [nesta pasta](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20CK%20Metrics%20Extractor/ck/target).
+
+Após o download, lembre-se de colocá-lo no diretório:  
+`ck/target/`
+
+---
+
+### 🐳 Opção 3: Gerar o JAR usando Docker (sem instalar Java/Maven)
+
+Se não quiser instalar o **Java 17** e o **Maven**, você pode usar Docker:
+
+```bash
+⁠ docker run --rm -v "$PWD":/work -w /work maven:3.9.6-eclipse-temurin-17 \
+            cp target/*-jar-with-dependencies.jar /work/ck.jarecommends git && \
+            rm -rf /var/lib/apt/lists/* && \
+            git clone https://github.com/mauricioaniche/ck.git && \
+            cd ck && mvn -B -DskipTests clean package && \
+            cp target/*-jar-with-dependencies.jar /work/ck.jar'
+```
+
+Após a execução, o arquivo `ck.jar` estará disponível no diretório atual (`$PWD`).
+
+---
+
+## ▶️ Como rodar o projeto
 
 ```bash
 python ck_metrics_extractor.py
