@@ -62,7 +62,7 @@ Liste as questões de pesquisa que guiaram o estudo, com suas métricas associad
 
 **🔍 Questões de Pesquisa (RQs):**
 
-| RQ | Pergunta | Métrica Utilizada |
+| RQ | Pergunta | Métrica utilizada |
 |----|----------|-----------------|
 | RQ01 | Sistemas populares são maduros/antigos? | 🕰 Idade do repositório (calculado a partir da data de criação) |
 | RQ02 | Sistemas populares recebem muita contribuição externa? | ✅ Total de Pull Requests Aceitas |
@@ -111,11 +111,11 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 Para métricas categóricas, como linguagem de programação, faça contagens e tabelas de frequência:
 
 | Linguagem | Quantidade de Repositórios |
-|-----------|---------------------------|
-| 🐍 Python    | 350                       |
-| 💻 JavaScript| 300                       |
-| ☕ Java      | 200                       |
-| 📦 Outros    | 150                       |
+|---------------|------------------------|
+| 🐍 Python     | 350                    |
+| 💻 JavaScript | 300                    |
+| ☕ Java        | 200                    |
+| 📦 Outros     | 150                    |
 
 ---
 
