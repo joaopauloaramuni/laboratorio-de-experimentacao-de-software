@@ -151,6 +151,23 @@ Para criar visualizações das métricas, recomenda-se utilizar como referência
 
 > 💡 Dica: combine tabelas e gráficos para facilitar a interpretação e evidenciar padrões nos dados.
 
+### 6.5 Estatísticas Descritivas
+
+Apresente as estatísticas descritivas das métricas analisadas, permitindo uma compreensão mais detalhada da distribuição dos dados.
+
+| Métrica | Média | Mediana | Moda | Desvio Padrão | Mínimo | Máximo |
+|---------|------|--------|-----|---------------|--------|--------|
+| 🕰 Idade do Repositório (anos) | X | Y | Z | A | B | C |
+| ✅ Pull Requests Aceitas | X | Y | Z | A | B | C |
+| 📦 Número de Releases | X | Y | Z | A | B | C |
+| ⏳ Tempo desde a Última Atualização (dias) | X | Y | Z | A | B | C |
+| 📋 Percentual de Issues Fechadas (%) | X | Y | Z | A | B | C |
+| ⭐ Número de Estrelas (Stars) | X | Y | Z | A | B | C |
+| 🍴 Número de Forks | X | Y | Z | A | B | C |
+| 📏 Tamanho do Repositório (LOC) | X | Y | Z | A | B | C |
+
+> 💡 Dica: Inclua gráficos como histogramas ou boxplots junto com essas estatísticas para facilitar a interpretação.
+
 ---
 
 ## 7. Discussão
@@ -197,7 +214,7 @@ Liste as referências bibliográficas ou links utilizados.
 
 ---
 
-## 10. Apêndices (opcional)
+## 10. Apêndices
 - 💾 Scripts utilizados para coleta e análise de dados.
 - 🔗 Consultas GraphQL ou endpoints REST.
 - 📊 Planilhas e arquivos CSV gerados.
