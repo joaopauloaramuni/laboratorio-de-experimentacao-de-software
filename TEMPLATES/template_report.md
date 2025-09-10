@@ -10,7 +10,7 @@
 ---
 
 ## 2. Introdução
-Descreva o contexto do laboratório, objetivo do estudo e a relevância da análise.  
+Descreva o contexto do laboratório, o objetivo do estudo e a relevância da análise.  
 Inclua hipóteses informais sobre os resultados esperados.
 
 **Exemplos de hipóteses informais:**
@@ -35,22 +35,20 @@ Inclua hipóteses informais sobre os resultados esperados.
 ## 4. Metodologia
 Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de dados, filtragem, normalização, análise e visualização.
 
-**Exemplo:**
-
 ### 4.1 Coleta de Dados
-- Foram coletados dados de [X] repositórios usando a [GitHub API].
+- Foram coletados dados de [X] repositórios utilizando a [GitHub API].
 - Critérios de seleção: [Ex.: top-1000 por número de estrelas, linguagem específica, etc.]
 
 ### 4.2 Filtragem e Paginação
-- Utilizou-se paginação da API devido ao alto volume de dados.
+- Foi utilizada paginação da API devido ao grande volume de dados.
 - Tempo médio de coleta: [XX minutos].
 
 ### 4.3 Normalização e Pré-processamento
-- Dados normalizados com [ex.: min-max scaling] para garantir consistência.
+- Os dados foram normalizados utilizando [ex.: min-max scaling] para garantir consistência.
 
 ### 4.4 Cálculo de Métricas
 - Métricas de interesse: idade do repositório, número de pull requests aceitas, número de releases, tempo desde a última atualização, linguagem primária, percentual de issues fechadas.
-- Métricas compostas calculadas utilizando combinação linear ponderada de fatores relevantes.
+- Métricas compostas calculadas por meio de combinação linear ponderada de fatores relevantes.
 
 ### 4.5 Ordenação e Análise Inicial
 - Repositórios ordenados por pontuação composta ou por número de estrelas.
@@ -73,7 +71,7 @@ Liste as questões de pesquisa que guiaram o estudo.
 
 ## 6. Resultados
 
-Apresente os resultados obtidos, com tabelas e gráficos, sempre que possível.
+Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
 
 ### 6.1 Métricas
 
@@ -105,7 +103,7 @@ Para métricas categóricas, como linguagem de programação, faça contagens e 
 
 ### 6.3 Sugestões de Gráficos
 
-Para visualização de métricas, sugiro consultar o projeto **Seaborn Samples**:
+Para criar visualizações das métricas, recomenda-se utilizar como referência o projeto Seaborn Samples:
 - Repositório: [Projeto Seaborn Samples](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20Seaborn%20Samples)
 
 - **Histograma**: `grafico_histograma.png` → distribuição de idade, PRs aceitas ou estrelas.  
@@ -115,11 +113,11 @@ Para visualização de métricas, sugiro consultar o projeto **Seaborn Samples**
 - **Gráfico de Linha**: `grafico_linha.png` → evolução de releases ou PRs ao longo do tempo.  
 - **Scatterplot / Dispersão**: `grafico_dispersao.png` → relação entre estrelas e forks.  
 - **Heatmap**: `grafico_heatmap.png` → correlação entre métricas (idade, PRs, stars, forks, issues).  
-- **Pairplot**: `grafico_pairplot.png` → análise de múltiplas métricas ao mesmo tempo.  
-- **Violin Plot**: `grafico_violin.png` → distribuição de métricas detalhada, por subgrupo.  
+- **Pairplot**: `grafico_pairplot.png` → análise de múltiplas métricas simultaneamente.  
+- **Violin Plot**: `grafico_violin.png` → distribuição detalhada de métricas por subgrupo.  
 - **Barras Empilhadas**: `grafico_barras_empilhadas.png` → comparação de categorias dentro de métricas.
 
-> Dica: combine tabelas e gráficos para facilitar a interpretação e evidenciar padrões nos dados. Use o projeto **Seaborn Samples** como base para implementar todos esses gráficos.
+> Dica: combine tabelas e gráficos para facilitar a interpretação e evidenciar padrões nos dados.
 
 ---
 
@@ -132,7 +130,7 @@ Nesta seção, compare os resultados obtidos com as hipóteses informais levanta
 - **Padrões e insights interessantes**: destaque tendências ou comportamentos relevantes observados nos dados que não haviam sido previstos nas hipóteses.  
 - **Comparação por subgrupos (opcional)**: se houver segmentação dos dados (ex.: por linguagem de programação, tamanho do repositório), discuta como os resultados se comportam em cada grupo.  
 
-> Lembre-se de sempre relacionar os pontos observados com as hipóteses informais definidas na introdução, fortalecendo a análise crítica do experimento.
+> Relacione sempre os pontos observados com as hipóteses informais definidas na introdução, fortalecendo a análise crítica do experimento.
 
 ---
 
@@ -141,7 +139,7 @@ Nesta seção, compare os resultados obtidos com as hipóteses informais levanta
 Resumo das principais descobertas do laboratório.
 
 - **Principais insights:**  
-  - Big numbers encontrados nos repositórios/popularidade/métricas destacadas.  
+  - Big numbers encontrados nos repositórios, popularidade e métricas destacadas.  
   - Descobertas relevantes sobre padrões de contribuição, releases, issues fechadas ou linguagens mais utilizadas.  
   - Confirmações ou refutações das hipóteses informais levantadas pelo grupo.
 
