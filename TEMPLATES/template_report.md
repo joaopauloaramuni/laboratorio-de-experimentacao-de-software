@@ -86,7 +86,7 @@ Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
 Inclua métricas relevantes de repositórios do GitHub, separando **métricas do laboratório** e **métricas adicionais trazidas pelo grupo**:
 
 #### 📊 Métricas de Laboratório - Lab Metrics (LM)
-| Code | Métrica | Mediana | Média | Desvio Padrão |
+| Código | Métrica | Mediana | Média | Desvio Padrão |
 |------|--------|--------|------|------------------|
 | LM01 | 🕰 Idade do Repositório (anos) | X | Y | Z |
 | LM02 | ✅ Pull Requests Aceitas | X | Y | Z |
@@ -98,7 +98,7 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 | LM08 | 📏 Tamanho do Repositório (LOC) | X | Y | Z |
 
 #### 💡 Métricas adicionais trazidas pelo grupo - Additional Metrics (AM)
-| Code | Métrica | Descrição |
+| Código | Métrica | Descrição |
 |------|--------|------------|
 | AM01 | 💻 Linguagem Primária | Linguagem de programação principal do repositório (ex.: Python, JavaScript, Java) |
 | AM02 | 🔗 Forks vs Pull Requests Aceitas | Relação entre número de forks e pull requests aceitas |
