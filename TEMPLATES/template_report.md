@@ -13,14 +13,15 @@
 Descreva o contexto do laboratório, o objetivo do estudo e a relevância da análise.  
 Inclua hipóteses informais sobre os resultados esperados.
 
-**💡 Exemplos de hipóteses informais:**
-- Sistemas populares recebem mais contribuições externas e lançam releases com maior frequência, refletindo um processo de desenvolvimento ativo.
-- Mais de 50% dos repositórios populares são mantidos há mais de 5 anos, indicando maturidade do projeto.
-- Espera-se que mais de 50% dos repositórios populares tenham pelo menos 70% das issues fechadas, demonstrando boa gestão de problemas.
-- Repositórios populares tendem a ser escritos nas linguagens mais utilizadas (ex.: JavaScript, Python, Java), representando a adoção de linguagens consolidadas.
-- Mais de 50% dos repositórios populares recebem atualizações nos últimos 3 meses, refletindo atividade contínua da comunidade.
-- Projetos populares com maior número de forks tendem a ter mais pull requests aceitas, indicando engajamento externo significativo.
-- Repositórios populares com grande número de stars podem apresentar Big Numbers em métricas como número de commits, branches e releases, destacando sua relevância na comunidade open-source.
+**💡 Exemplos de Hipóteses Informais - Informal Hypotheses (IH):**
+
+- **IH01:** Popular systems receive more external contributions and release updates more frequently, reflecting an active development process.
+- **IH02:** More than 50% of popular repositories have been maintained for over 5 years, indicating project maturity.
+- **IH03:** More than 50% of popular repositories are expected to have at least 70% of issues closed, demonstrating good issue management.
+- **IH04:** Popular repositories tend to be written in the most used languages (e.g., JavaScript, Python, Java), reflecting adoption of established languages.
+- **IH05:** More than 50% of popular repositories receive updates in the last 3 months, reflecting continuous community activity.
+- **IH06:** Popular projects with a higher number of forks tend to have more pull requests accepted, indicating significant external engagement.
+- **IH07:** Popular repositories with a large number of stars may exhibit Big Numbers in metrics such as commits, branches, and releases, highlighting their relevance in the open-source community.
 
 ---
 
@@ -60,7 +61,7 @@ Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de 
 
 Liste as questões de pesquisa que guiaram o estudo, com suas métricas associadas:
 
-**🔍 Questões de Pesquisa (RQs):**
+**🔍 Questões de Pesquisa - Research Questions (RQs):**
 
 | RQ | Pergunta | Métrica utilizada |
 |----|----------|-----------------|
@@ -84,23 +85,25 @@ Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
 
 Inclua métricas relevantes de repositórios do GitHub, separando **métricas do laboratório** e **métricas adicionais trazidas pelo grupo**:
 
-#### 📊 Métricas do laboratório
-| Métrica | Mediana | Média | Desvio Padrão |
-|---------|--------|------|---------------|
-| 🕰 Idade do Repositório (anos) | X | Y | Z |
-| ✅ Pull Requests Aceitas | X | Y | Z |
-| 📦 Número de Releases | X | Y | Z |
-| ⏳ Tempo desde a Última Atualização (dias) | X | Y | Z |
-| 📋 Percentual de Issues Fechadas (%) | X | Y | Z |
-| ⭐ Número de Estrelas (Stars) | X | Y | Z |
-| 🍴 Número de Forks | X | Y | Z |
-| 📏 Tamanho do Repositório (LOC) | X | Y | Z |
+#### 📊 Métricas de Laboratório - Lab Metrics (LM)
+| Code | Metric | Median | Mean | Standard Deviation |
+|------|--------|--------|------|------------------|
+| LM01 | 🕰 Repository Age (years) | X | Y | Z |
+| LM02 | ✅ Accepted Pull Requests | X | Y | Z |
+| LM03 | 📦 Number of Releases | X | Y | Z |
+| LM04 | ⏳ Time since Last Update (days) | X | Y | Z |
+| LM05 | 📋 Percentage of Closed Issues (%) | X | Y | Z |
+| LM06 | ⭐ Number of Stars | X | Y | Z |
+| LM07 | 🍴 Number of Forks | X | Y | Z |
+| LM08 | 📏 Repository Size (LOC) | X | Y | Z |
 
-#### 💡 Métricas adicionais trazidas pelo grupo
-- 💻 Linguagem primária dos repositórios (ex.: Python, JavaScript, Java)  
-- 🔗 Relação entre número de forks e pull requests aceitas  
-- 📈 Evolução temporal de releases e pull requests aceitas  
-- 🌟 Big Numbers em métricas de destaque (commits, branches, stars, releases)  
+#### 💡 Métricas adicionais trazidas pelo grupo - Additional Metrics (AM)
+| Code | Metric | Description |
+|------|--------|------------|
+| AM01 | 💻 Primary Language | Primary programming language of the repository (e.g., Python, JavaScript, Java) |
+| AM02 | 🔗 Forks vs Accepted PRs | Relationship between number of forks and accepted pull requests |
+| AM03 | 📈 Temporal Evolution | Temporal evolution of releases and accepted pull requests |
+| AM04 | 🌟 Big Numbers | Highlighted metrics with large values (commits, branches, stars, releases) |
 
 > Obs.: Adapte ou acrescente métricas conforme o seu dataset.
 
@@ -121,15 +124,15 @@ Para métricas categóricas, como linguagem de programação, faça contagens e 
 
 ### 6.3 Relação das RQs com as Métricas
 
-| RQ | Pergunta | Métrica utilizada |
-|----|----------|-----------------|
-| RQ01 | Sistemas populares são maduros/antigos? | 🕰 Idade do Repositório (calculado a partir da data de criação) |
-| RQ02 | Sistemas populares recebem muita contribuição externa? | ✅ Total de Pull Requests Aceitas |
-| RQ03 | Sistemas populares lançam releases com frequência? | 📦 Total de Releases |
-| RQ04 | Sistemas populares são atualizados com frequência? | ⏳ Tempo desde a Última Atualização (dias) |
-| RQ05 | Sistemas populares são escritos nas linguagens mais populares? | 💻 Linguagem primária de cada repositório |
-| RQ06 | Sistemas populares possuem alto percentual de issues fechadas? | 📋 Razão entre número de issues fechadas pelo total de issues |
-| RQ07 | Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência? | ✅ Pull Requests Aceitas, 📦 Número de Releases, ⏳ Tempo desde a Última Atualização, 💻 Linguagem primária |
+| RQ   | Pergunta | Métrica utilizada | Código |
+|------|----------|-----------------|--------|
+| RQ01 | Sistemas populares são maduros/antigos? | 🕰 Idade do Repositório (calculado a partir da data de criação) | LM01 |
+| RQ02 | Sistemas populares recebem muita contribuição externa? | ✅ Total de Pull Requests Aceitas | LM02 |
+| RQ03 | Sistemas populares lançam releases com frequência? | 📦 Total de Releases | LM03 |
+| RQ04 | Sistemas populares são atualizados com frequência? | ⏳ Tempo desde a Última Atualização (dias) | LM04 |
+| RQ05 | Sistemas populares são escritos nas linguagens mais populares? | 💻 Linguagem primária de cada repositório | AM01 |
+| RQ06 | Sistemas populares possuem alto percentual de issues fechadas? | 📋 Razão entre número de issues fechadas pelo total de issues | LM05 |
+| RQ07 | Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência? | ✅ Pull Requests Aceitas, 📦 Número de Releases, ⏳ Tempo desde a Última Atualização, 💻 Linguagem primária | LM02, LM03, LM04, AM01 |
 
 ---
 
@@ -155,16 +158,16 @@ Para criar visualizações das métricas, recomenda-se utilizar como referência
 
 Apresente as estatísticas descritivas das métricas analisadas, permitindo uma compreensão mais detalhada da distribuição dos dados.
 
-| Métrica | Média | Mediana | Moda | Desvio Padrão | Mínimo | Máximo |
-|---------|------|--------|-----|---------------|--------|--------|
-| 🕰 Idade do Repositório (anos) | X | Y | Z | A | B | C |
-| ✅ Pull Requests Aceitas | X | Y | Z | A | B | C |
-| 📦 Número de Releases | X | Y | Z | A | B | C |
-| ⏳ Tempo desde a Última Atualização (dias) | X | Y | Z | A | B | C |
-| 📋 Percentual de Issues Fechadas (%) | X | Y | Z | A | B | C |
-| ⭐ Número de Estrelas (Stars) | X | Y | Z | A | B | C |
-| 🍴 Número de Forks | X | Y | Z | A | B | C |
-| 📏 Tamanho do Repositório (LOC) | X | Y | Z | A | B | C |
+| Métrica | Código | Média | Mediana | Moda | Desvio Padrão | Mínimo | Máximo |
+|---------|--------|------|--------|-----|---------------|--------|--------|
+| 🕰 Idade do Repositório (anos) | LM01 | X | Y | Z | A | B | C |
+| ✅ Pull Requests Aceitas | LM02 | X | Y | Z | A | B | C |
+| 📦 Número de Releases | LM03 | X | Y | Z | A | B | C |
+| ⏳ Tempo desde a Última Atualização (dias) | LM04 | X | Y | Z | A | B | C |
+| 📋 Percentual de Issues Fechadas (%) | LM05 | X | Y | Z | A | B | C |
+| ⭐ Número de Estrelas (Stars) | LM06 | X | Y | Z | A | B | C |
+| 🍴 Número de Forks | LM07 | X | Y | Z | A | B | C |
+| 📏 Tamanho do Repositório (LOC) | LM08 | X | Y | Z | A | B | C |
 
 > 💡 Dica: Inclua gráficos como histogramas ou boxplots junto com essas estatísticas para facilitar a interpretação.
 
