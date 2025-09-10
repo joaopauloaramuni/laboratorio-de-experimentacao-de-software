@@ -10,11 +10,17 @@
 ---
 
 ## 2. Introdução
-Descreva o contexto do laboratório, objetivo do estudo e a relevância da análise.
+Descreva o contexto do laboratório, objetivo do estudo e a relevância da análise.  
 Inclua hipóteses informais sobre os resultados esperados.
 
-**Exemplo de hipótese informal:**
-> Sistemas populares recebem mais contribuições externas e lançam releases com maior frequência, refletindo um processo de desenvolvimento ativo.
+**Exemplos de hipóteses informais:**
+- Sistemas populares recebem mais contribuições externas e lançam releases com maior frequência, refletindo um processo de desenvolvimento ativo.
+- Mais de 50% dos repositórios populares são mantidos há mais de 5 anos, indicando maturidade do projeto.
+- Espera-se que mais de 50% dos repositórios populares tenham pelo menos 70% das issues fechadas, demonstrando boa gestão de problemas.
+- Repositórios populares tendem a ser escritos nas linguagens mais utilizadas (por exemplo, JavaScript, Python, Java), representando a adoção de linguagens consolidadas.
+- Mais de 50% dos repositórios populares recebem atualizações nos últimos 3 meses, refletindo atividade contínua da comunidade.
+- Projetos populares com maior número de forks tendem a ter mais pull requests aceitas, indicando engajamento externo significativo.
+- Repositórios populares com grande número de stars podem apresentar Big Numbers em métricas como número de commits, branches e releases, destacando sua relevância na comunidade open-source.
 
 ---
 
