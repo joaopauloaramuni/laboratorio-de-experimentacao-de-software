@@ -15,13 +15,13 @@ Inclua hipóteses informais sobre os resultados esperados.
 
 **💡 Exemplos de Hipóteses Informais - Informal Hypotheses (IH):**
 
-- **IH01:** Popular systems receive more external contributions and release updates more frequently, reflecting an active development process.
-- **IH02:** More than 50% of popular repositories have been maintained for over 5 years, indicating project maturity.
-- **IH03:** More than 50% of popular repositories are expected to have at least 70% of issues closed, demonstrating good issue management.
-- **IH04:** Popular repositories tend to be written in the most used languages (e.g., JavaScript, Python, Java), reflecting adoption of established languages.
-- **IH05:** More than 50% of popular repositories receive updates in the last 3 months, reflecting continuous community activity.
-- **IH06:** Popular projects with a higher number of forks tend to have more pull requests accepted, indicating significant external engagement.
-- **IH07:** Popular repositories with a large number of stars may exhibit Big Numbers in metrics such as commits, branches, and releases, highlighting their relevance in the open-source community.
+- **IH01:** Sistemas populares recebem mais contribuições externas e lançam releases com maior frequência, refletindo um processo de desenvolvimento ativo.
+- **IH02:** Mais de 50% dos repositórios populares são mantidos há mais de 5 anos, indicando maturidade do projeto.
+- **IH03:** Espera-se que mais de 50% dos repositórios populares tenham pelo menos 70% das issues fechadas, demonstrando boa gestão de problemas.
+- **IH04:** Repositórios populares tendem a ser escritos nas linguagens mais utilizadas (ex.: JavaScript, Python, Java), representando a adoção de linguagens consolidadas.
+- **IH05:** Mais de 50% dos repositórios populares recebem atualizações nos últimos 3 meses, refletindo atividade contínua da comunidade.
+- **IH06:** Projetos populares com maior número de forks tendem a ter mais pull requests aceitas, indicando engajamento externo significativo.
+- **IH07:** Repositórios populares com grande número de stars podem apresentar Big Numbers em métricas como número de commits, branches e releases, destacando sua relevância na comunidade open-source.
 
 ---
 
@@ -86,24 +86,24 @@ Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
 Inclua métricas relevantes de repositórios do GitHub, separando **métricas do laboratório** e **métricas adicionais trazidas pelo grupo**:
 
 #### 📊 Métricas de Laboratório - Lab Metrics (LM)
-| Code | Metric | Median | Mean | Standard Deviation |
+| Code | Métrica | Mediana | Média | Desvio Padrão |
 |------|--------|--------|------|------------------|
-| LM01 | 🕰 Repository Age (years) | X | Y | Z |
-| LM02 | ✅ Accepted Pull Requests | X | Y | Z |
-| LM03 | 📦 Number of Releases | X | Y | Z |
-| LM04 | ⏳ Time since Last Update (days) | X | Y | Z |
-| LM05 | 📋 Percentage of Closed Issues (%) | X | Y | Z |
-| LM06 | ⭐ Number of Stars | X | Y | Z |
-| LM07 | 🍴 Number of Forks | X | Y | Z |
-| LM08 | 📏 Repository Size (LOC) | X | Y | Z |
+| LM01 | 🕰 Idade do Repositório (anos) | X | Y | Z |
+| LM02 | ✅ Pull Requests Aceitas | X | Y | Z |
+| LM03 | 📦 Número de Releases | X | Y | Z |
+| LM04 | ⏳ Tempo desde a Última Atualização (dias) | X | Y | Z |
+| LM05 | 📋 Percentual de Issues Fechadas (%) | X | Y | Z |
+| LM06 | ⭐ Número de Estrelas | X | Y | Z |
+| LM07 | 🍴 Número de Forks | X | Y | Z |
+| LM08 | 📏 Tamanho do Repositório (LOC) | X | Y | Z |
 
 #### 💡 Métricas adicionais trazidas pelo grupo - Additional Metrics (AM)
-| Code | Metric | Description |
+| Code | Métrica | Descrição |
 |------|--------|------------|
-| AM01 | 💻 Primary Language | Primary programming language of the repository (e.g., Python, JavaScript, Java) |
-| AM02 | 🔗 Forks vs Accepted PRs | Relationship between number of forks and accepted pull requests |
-| AM03 | 📈 Temporal Evolution | Temporal evolution of releases and accepted pull requests |
-| AM04 | 🌟 Big Numbers | Highlighted metrics with large values (commits, branches, stars, releases) |
+| AM01 | 💻 Linguagem Primária | Linguagem de programação principal do repositório (ex.: Python, JavaScript, Java) |
+| AM02 | 🔗 Forks vs Pull Requests Aceitas | Relação entre número de forks e pull requests aceitas |
+| AM03 | 📈 Evolução Temporal | Evolução temporal de releases e pull requests aceitas |
+| AM04 | 🌟 Big Numbers | Métricas com valores expressivos (commits, branches, stars, releases) |
 
 > Obs.: Adapte ou acrescente métricas conforme o seu dataset.
 
