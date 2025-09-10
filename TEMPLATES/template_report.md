@@ -1,4 +1,4 @@
-# TEMPLATE DE RELATÓRIO DE LABORATÓRIO
+# Template de Relatório Técnico de Laboratório
 
 ## 1. Informações do Grupo
 - **Curso:** Engenharia de Software
@@ -62,40 +62,93 @@ Liste as questões de pesquisa que guiaram o estudo.
 - RQ04: Sistemas populares são atualizados com frequência?
 - RQ05: Sistemas populares são escritos nas linguagens mais populares?
 - RQ06: Sistemas populares possuem alto percentual de issues fechadas?
-- [RQ07 opcional para análise por linguagem]
 
 ---
 
 ## 6. Resultados
-Apresente os resultados obtidos, com tabelas e gráficos, sempre que possível.
-- Valores medianos, médias e desvio padrão.
-- Distribuição por categoria (Ex.: linguagem de programação).
-- Resultados adicionais segmentados por subgrupos se necessário.
 
-**Exemplo de tabela:**
+Apresente os resultados obtidos, com tabelas e gráficos, sempre que possível.
+
+### 6.1 Métricas
+
+Inclua métricas relevantes de repositórios do GitHub, além das RQs:
+
 | Métrica | Mediana | Média | Desvio Padrão |
 |---------|--------|------|---------------|
-| Idade (anos) | X | Y | Z |
+| Idade do Repositório (anos) | X | Y | Z |
 | Pull Requests Aceitas | X | Y | Z |
+| Número de Releases | X | Y | Z |
+| Tempo desde a Última Atualização (dias) | X | Y | Z |
+| Percentual de Issues Fechadas (%) | X | Y | Z |
+| Número de Estrelas (Stars) | X | Y | Z |
+| Número de Forks | X | Y | Z |
+| Tamanho do Repositório (LOC) | X | Y | Z |
 
-**Exemplo de gráfico:**
-- Histogramas de distribuição de métricas.
-- Boxplots para valores de dispersão.
+> Obs.: Adapte ou acrescente métricas conforme o seu dataset.
+
+### 6.2 Distribuição por Categoria
+
+Para métricas categóricas, como linguagem de programação, faça contagens e tabelas de frequência:
+
+| Linguagem | Quantidade de Repositórios |
+|-----------|---------------------------|
+| Python    | 350                       |
+| JavaScript| 300                       |
+| Java      | 200                       |
+| Outros    | 150                       |
+
+### 6.3 Sugestões de Gráficos
+
+Para visualização de métricas, sugiro consultar o projeto **Seaborn Samples**:
+- Repositório: [Projeto Seaborn Samples](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20Seaborn%20Samples)
+
+- **Histograma**: `grafico_histograma.png` → distribuição de idade, PRs aceitas ou estrelas.  
+- **Boxplot**: `grafico_boxplot.png` → dispersão de métricas como forks, issues fechadas ou LOC.  
+- **Gráfico de Barras**: `grafico_barras.png` → comparação de métricas entre linguagens.  
+- **Gráfico de Pizza**: `grafico_pizza.png` → percentual de repositórios por linguagem.  
+- **Gráfico de Linha**: `grafico_linha.png` → evolução de releases ou PRs ao longo do tempo.  
+- **Scatterplot / Dispersão**: `grafico_dispersao.png` → relação entre estrelas e forks.  
+- **Heatmap**: `grafico_heatmap.png` → correlação entre métricas (idade, PRs, stars, forks, issues).  
+- **Pairplot**: `grafico_pairplot.png` → análise de múltiplas métricas ao mesmo tempo.  
+- **Violin Plot**: `grafico_violin.png` → distribuição de métricas detalhada, por subgrupo.  
+- **Barras Empilhadas**: `grafico_barras_empilhadas.png` → comparação de categorias dentro de métricas.
+
+> Dica: combine tabelas e gráficos para facilitar a interpretação e evidenciar padrões nos dados. Use o projeto **Seaborn Samples** como base para implementar todos esses gráficos.
 
 ---
 
 ## 7. Discussão
-Compare os resultados obtidos com as hipóteses iniciais.
-- Pontos que confirmam ou refutam as hipóteses.
-- Possíveis explicações para os resultados divergentes.
-- Observações sobre padrões interessantes nos dados.
+
+Nesta seção, compare os resultados obtidos com as hipóteses informais levantadas pelo grupo no início do experimento.
+
+- **Confirmação ou refutação das hipóteses**: identifique quais hipóteses foram confirmadas pelos dados e quais foram refutadas.  
+- **Explicações para resultados divergentes**: caso algum resultado seja diferente do esperado, tente levantar possíveis causas ou fatores que possam ter influenciado.  
+- **Padrões e insights interessantes**: destaque tendências ou comportamentos relevantes observados nos dados que não haviam sido previstos nas hipóteses.  
+- **Comparação por subgrupos (opcional)**: se houver segmentação dos dados (ex.: por linguagem de programação, tamanho do repositório), discuta como os resultados se comportam em cada grupo.  
+
+> Lembre-se de sempre relacionar os pontos observados com as hipóteses informais definidas na introdução, fortalecendo a análise crítica do experimento.
 
 ---
 
 ## 8. Conclusão
+
 Resumo das principais descobertas do laboratório.
-- Destaque insights relevantes.
-- Sugestões para trabalhos futuros ou análises adicionais.
+
+- **Principais insights:**  
+  - Big numbers encontrados nos repositórios/popularidade/métricas destacadas.  
+  - Descobertas relevantes sobre padrões de contribuição, releases, issues fechadas ou linguagens mais utilizadas.  
+  - Confirmações ou refutações das hipóteses informais levantadas pelo grupo.
+
+- **Problemas e dificuldades enfrentadas:**  
+  - Limitações da API do GitHub e paginação de grandes volumes de dados.  
+  - Normalização e tratamento de dados inconsistentes ou ausentes.  
+  - Desafios com cálculos de métricas ou integração de múltiplos arquivos CSV.  
+
+- **Sugestões para trabalhos futuros:**  
+  - Analisar métricas adicionais ou aprofundar correlações entre métricas de qualidade e métricas de processo.  
+  - Testar outras linguagens de programação ou frameworks.  
+  - Implementar dashboards interativos para visualização de grandes volumes de dados.  
+  - Explorar métricas de tendências temporais ou evolução de repositórios ao longo do tempo.
 
 ---
 
@@ -113,7 +166,4 @@ Liste as referências bibliográficas ou links utilizados.
 - Consultas GraphQL ou endpoints REST.
 - Planilhas e arquivos CSV gerados.
 
-```
-# Fim do TEMPLATE
-```
-
+---
