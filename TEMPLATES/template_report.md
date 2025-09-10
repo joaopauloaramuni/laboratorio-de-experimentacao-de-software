@@ -1,4 +1,4 @@
-📝 Template de Relatório Técnico de Laboratório
+# 📝 Template de Relatório Técnico de Laboratório
 
 ## 1. Informações do Grupo
 - **🎓 Curso:** Engenharia de Software
