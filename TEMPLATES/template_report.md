@@ -86,16 +86,16 @@ Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
 Inclua métricas relevantes de repositórios do GitHub, separando **métricas do laboratório** e **métricas adicionais trazidas pelo grupo**:
 
 #### 📊 Métricas de Laboratório - Lab Metrics (LM)
-| Código | Métrica | Mediana | Média | Desvio Padrão |
-|------|--------|--------|------|------------------|
-| LM01 | 🕰 Idade do Repositório (anos) | X | Y | Z |
-| LM02 | ✅ Pull Requests Aceitas | X | Y | Z |
-| LM03 | 📦 Número de Releases | X | Y | Z |
-| LM04 | ⏳ Tempo desde a Última Atualização (dias) | X | Y | Z |
-| LM05 | 📋 Percentual de Issues Fechadas (%) | X | Y | Z |
-| LM06 | ⭐ Número de Estrelas | X | Y | Z |
-| LM07 | 🍴 Número de Forks | X | Y | Z |
-| LM08 | 📏 Tamanho do Repositório (LOC) | X | Y | Z |
+| Código | Métrica | Descrição |
+|--------|--------|-----------|
+| LM01 | 🕰 Idade do Repositório (anos) | Tempo desde a criação do repositório até o momento atual, medido em anos. |
+| LM02 | ✅ Pull Requests Aceitas | Quantidade de pull requests que foram aceitas e incorporadas ao repositório. |
+| LM03 | 📦 Número de Releases | Total de versões ou releases oficiais publicadas no repositório. |
+| LM04 | ⏳ Tempo desde a Última Atualização (dias) | Número de dias desde a última modificação ou commit no repositório. |
+| LM05 | 📋 Percentual de Issues Fechadas (%) | Proporção de issues fechadas em relação ao total de issues criadas, em percentual. |
+| LM06 | ⭐ Número de Estrelas | Quantidade de estrelas recebidas no GitHub, representando interesse ou popularidade. |
+| LM07 | 🍴 Número de Forks | Número de forks, indicando quantas vezes o repositório foi copiado por outros usuários. |
+| LM08 | 📏 Tamanho do Repositório (LOC) | Total de linhas de código (Lines of Code) contidas no repositório. |
 
 #### 💡 Métricas adicionais trazidas pelo grupo - Additional Metrics (AM)
 | Código | Métrica | Descrição |
