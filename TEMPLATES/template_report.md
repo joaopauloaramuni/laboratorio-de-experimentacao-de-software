@@ -1,6 +1,6 @@
 # 📝 Template de Relatório Técnico de Laboratório
 
-## 1. Informações do Grupo
+## 1. Informações do grupo
 - **🎓 Curso:** Engenharia de Software
 - **📘 Disciplina:** Laboratório de Experimentação de Software
 - **🗓 Período:** 6° Período
@@ -24,7 +24,7 @@ Inclua hipóteses informais sobre os resultados esperados.
 
 ---
 
-## 3. Tecnologias e Ferramentas Utilizadas
+## 3. Tecnologias e ferramentas utilizadas
 - **💻 Linguagem de Programação:** [Ex.: Python, Java]
 - **🛠 Frameworks/Bibliotecas:** [Ex.: Pandas, Matplotlib, Seaborn, CK]
 - **🌐 APIs utilizadas:** [Ex.: GitHub GraphQL API, GitHub REST API]
@@ -35,28 +35,28 @@ Inclua hipóteses informais sobre os resultados esperados.
 ## 4. Metodologia
 Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de dados, filtragem, normalização, análise e visualização.
 
-### 4.1 Coleta de Dados
+### 4.1 Coleta de dados
 - Foram coletados dados de [X] repositórios utilizando a [GitHub API].
 - Critérios de seleção: [Ex.: top-1000 por número de estrelas, linguagem específica, etc.]
 
-### 4.2 Filtragem e Paginação
+### 4.2 Filtragem e paginação
 - Foi utilizada paginação da API devido ao grande volume de dados.
 - ⏱ Tempo médio de coleta: [XX minutos].
 
-### 4.3 Normalização e Pré-processamento
+### 4.3 Normalização e pré-processamento
 - Os dados foram normalizados utilizando [ex.: min-max scaling] para garantir consistência.
 
-### 4.4 Cálculo de Métricas
+### 4.4 Cálculo de métricas
 - Métricas de interesse: idade do repositório, número de pull requests aceitas, número de releases, tempo desde a última atualização, linguagem primária, percentual de issues fechadas.
 - Métricas compostas calculadas por meio de combinação linear ponderada de fatores relevantes.
 
-### 4.5 Ordenação e Análise Inicial
+### 4.5 Ordenação e análise inicial
 - Repositórios ordenados por pontuação composta ou por número de estrelas.
 - Análise inicial baseada em valores medianos e contagem de categorias.
 
 ---
 
-## 5. Questões de Pesquisa
+## 5. Questões de pesquisa
 
 Liste as questões de pesquisa que guiaram o estudo, com suas métricas associadas:
 
@@ -84,7 +84,7 @@ Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
 
 Inclua métricas relevantes de repositórios do GitHub, separando **métricas do laboratório** e **métricas adicionais trazidas pelo grupo**:
 
-#### 📊 Métricas do Laboratório
+#### 📊 Métricas do laboratório
 | Métrica | Mediana | Média | Desvio Padrão |
 |---------|--------|------|---------------|
 | 🕰 Idade do Repositório (anos) | X | Y | Z |
@@ -106,7 +106,7 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 
 ---
 
-### 6.2 Distribuição por Categoria
+### 6.2 Distribuição por categoria
 
 Para métricas categóricas, como linguagem de programação, faça contagens e tabelas de frequência:
 
@@ -133,7 +133,7 @@ Para métricas categóricas, como linguagem de programação, faça contagens e 
 
 ---
 
-### 6.4 Sugestões de Gráficos
+### 6.4 Sugestões de gráficos
 
 Para criar visualizações das métricas, recomenda-se utilizar como referência o projeto **Seaborn Samples**:  
 - 🔗 Repositório: [Projeto Seaborn Samples](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20Seaborn%20Samples)
