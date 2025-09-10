@@ -1,4 +1,4 @@
-<img width="442" height="284" alt="image" src="https://github.com/user-attachments/assets/e16ea1f8-39b9-4be8-99fe-d9bf9181a883" /># 📝 Template de Relatório Técnico de Laboratório
+📝 Template de Relatório Técnico de Laboratório
 
 ## 1. Informações do Grupo
 - **🎓 Curso:** Engenharia de Software
