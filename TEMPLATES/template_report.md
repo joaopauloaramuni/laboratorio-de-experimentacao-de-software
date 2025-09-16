@@ -36,24 +36,36 @@ Inclua hipóteses informais sobre os resultados esperados.
 ## 4. Metodologia
 Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de dados, filtragem, normalização, análise e visualização.
 
+---
+
 ### 4.1 Coleta de dados
 - Foram coletados dados de [X] repositórios utilizando a [GitHub API].
 - Critérios de seleção: [Ex.: top-1000 por número de estrelas, linguagem específica, etc.]
+
+---
 
 ### 4.2 Filtragem e paginação
 - Foi utilizada paginação da API devido ao grande volume de dados.
 - ⏱ Tempo médio de coleta: [XX minutos].
 
+---
+
 ### 4.3 Normalização e pré-processamento
 - Os dados foram normalizados utilizando [ex.: min-max scaling] para garantir consistência.
+
+---
 
 ### 4.4 Cálculo de métricas
 - Métricas de interesse: idade do repositório, número de pull requests aceitas, número de releases, tempo desde a última atualização, linguagem primária, percentual de issues fechadas.
 - Métricas compostas calculadas por meio de combinação linear ponderada de fatores relevantes.
 
+---
+
 ### 4.5 Ordenação e análise inicial
 - Repositórios ordenados por pontuação composta ou por número de estrelas.
 - Análise inicial baseada em valores medianos e contagem de categorias.
+
+---
 
 ### 4.6 Métricas
 
@@ -81,7 +93,9 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 
 > Obs.: Adapte ou acrescente métricas conforme o seu dataset.
 
-### 4.7. Relação das questões de pesquisa com as métricas
+---
+
+### 4.7. Relação das RQs com as Métricas
 
 As **Questões de Pesquisa (Research Questions – RQs)** foram definidas com o objetivo de orientar a análise e direcionar a interpretação dos resultados.  
 Cada RQ está associada a uma ou mais métricas específicas, previamente definidas na seção de métricas (Seção 4.6).  
@@ -105,7 +119,7 @@ A tabela a seguir apresenta a relação entre cada questão de pesquisa e as mé
 
 ## 5. Resultados
 
-Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
+Apresente os resultados obtidos, com tabelas e gráficos.
 
 ---
 
@@ -122,21 +136,26 @@ Para métricas categóricas, como linguagem de programação, faça contagens e 
 
 ---
 
-### 5.2 Relação das RQs com as Métricas
+### 5.2 Estatísticas Descritivas
 
-| RQ   | Pergunta | Métrica utilizada | Código |
-|------|----------|-----------------|--------|
-| RQ01 | Sistemas populares são maduros/antigos? | 🕰 Idade do Repositório (calculado a partir da data de criação) | LM01 |
-| RQ02 | Sistemas populares recebem muita contribuição externa? | ✅ Total de Pull Requests Aceitas | LM02 |
-| RQ03 | Sistemas populares lançam releases com frequência? | 📦 Total de Releases | LM03 |
-| RQ04 | Sistemas populares são atualizados com frequência? | ⏳ Tempo desde a Última Atualização (dias) | LM04 |
-| RQ05 | Sistemas populares são escritos nas linguagens mais populares? | 💻 Linguagem primária de cada repositório | AM01 |
-| RQ06 | Sistemas populares possuem alto percentual de issues fechadas? | 📋 Razão entre número de issues fechadas pelo total de issues | LM05 |
-| RQ07 | Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência? | ✅ Pull Requests Aceitas, 📦 Número de Releases, ⏳ Tempo desde a Última Atualização, 💻 Linguagem primária | LM02, LM03, LM04, AM01 |
+Apresente as estatísticas descritivas das métricas analisadas, permitindo uma compreensão mais detalhada da distribuição dos dados.
+
+| Métrica | Código | Média | Mediana | Moda | Desvio Padrão | Mínimo | Máximo |
+|---------|--------|------|--------|-----|---------------|--------|--------|
+| 🕰 Idade do Repositório (anos) | LM01 | X | Y | Z | A | B | C |
+| ✅ Pull Requests Aceitas | LM02 | X | Y | Z | A | B | C |
+| 📦 Número de Releases | LM03 | X | Y | Z | A | B | C |
+| ⏳ Tempo desde a Última Atualização (dias) | LM04 | X | Y | Z | A | B | C |
+| 📋 Percentual de Issues Fechadas (%) | LM05 | X | Y | Z | A | B | C |
+| ⭐ Número de Estrelas (Stars) | LM06 | X | Y | Z | A | B | C |
+| 🍴 Número de Forks | LM07 | X | Y | Z | A | B | C |
+| 📏 Tamanho do Repositório (LOC) | LM08 | X | Y | Z | A | B | C |
+
+> 💡 Dica: Inclua gráficos como histogramas ou boxplots junto com essas estatísticas para facilitar a interpretação.
 
 ---
 
-### 5.3 Sugestões de gráficos
+### 5.3 Gráficos
 
 Para criar visualizações das métricas, recomenda-se utilizar como referência o projeto **Seaborn Samples**:  
 - 🔗 Repositório: [Projeto Seaborn Samples](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20Seaborn%20Samples)
@@ -156,26 +175,7 @@ Para criar visualizações das métricas, recomenda-se utilizar como referência
 
 ---
 
-### 5.4 Estatísticas Descritivas
-
-Apresente as estatísticas descritivas das métricas analisadas, permitindo uma compreensão mais detalhada da distribuição dos dados.
-
-| Métrica | Código | Média | Mediana | Moda | Desvio Padrão | Mínimo | Máximo |
-|---------|--------|------|--------|-----|---------------|--------|--------|
-| 🕰 Idade do Repositório (anos) | LM01 | X | Y | Z | A | B | C |
-| ✅ Pull Requests Aceitas | LM02 | X | Y | Z | A | B | C |
-| 📦 Número de Releases | LM03 | X | Y | Z | A | B | C |
-| ⏳ Tempo desde a Última Atualização (dias) | LM04 | X | Y | Z | A | B | C |
-| 📋 Percentual de Issues Fechadas (%) | LM05 | X | Y | Z | A | B | C |
-| ⭐ Número de Estrelas (Stars) | LM06 | X | Y | Z | A | B | C |
-| 🍴 Número de Forks | LM07 | X | Y | Z | A | B | C |
-| 📏 Tamanho do Repositório (LOC) | LM08 | X | Y | Z | A | B | C |
-
-> 💡 Dica: Inclua gráficos como histogramas ou boxplots junto com essas estatísticas para facilitar a interpretação.
-
----
-
-### 5.5. Discussão dos resultados
+### 5.4. Discussão dos resultados
 
 Nesta seção, compare os resultados obtidos com as hipóteses informais levantadas pelo grupo no início do experimento.
 
