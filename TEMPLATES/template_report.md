@@ -10,10 +10,28 @@
 ---
 
 ## 2. Introdução
-Descreva o contexto do laboratório, o objetivo do estudo e a relevância da análise.  
-Inclua hipóteses informais sobre os resultados esperados.
+O laboratório tem como objetivo analisar a maturidade e o nível de atividade de sistemas populares hospedados em repositórios públicos.  
+Espera-se compreender padrões de desenvolvimento, adoção de linguagens e engajamento da comunidade em projetos open-source.
 
-**💡 Exemplos de Hipóteses Informais - Informal Hypotheses (IH):**
+### 2.1. Questões de Pesquisa (Research Questions – RQs)
+As **Questões de Pesquisa** foram definidas para guiar a investigação e estruturar a análise dos dados coletados:
+
+**🔍 Questões de Pesquisa - Research Questions (RQs):**
+
+| RQ   | Pergunta |
+|------|----------|
+| RQ01 | Sistemas populares são maduros/antigos? |
+| RQ02 | Sistemas populares recebem muita contribuição externa? |
+| RQ03 | Sistemas populares lançam releases com frequência? |
+| RQ04 | Sistemas populares são atualizados com frequência? |
+| RQ05 | Sistemas populares são escritos nas linguagens mais populares? |
+| RQ06 | Sistemas populares possuem um alto percentual de issues fechadas? |
+| RQ07 | Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência? |
+
+### 2.2. Hipóteses Informais (Informal Hypotheses – IH)
+As **Hipóteses Informais** foram elaboradas a partir das RQs, estabelecendo expectativas sobre os resultados esperados do estudo:
+
+**💡 Hipóteses Informais - Informal Hypotheses (IH):**
 
 - **IH01:** Sistemas populares recebem mais contribuições externas e lançam releases com maior frequência, refletindo um processo de desenvolvimento ativo.
 - **IH02:** Mais de 50% dos repositórios populares são mantidos há mais de 5 anos, indicando maturidade do projeto.
@@ -116,14 +134,11 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 ---
 
 ### 4.7. Relação das RQs com as Métricas
+As **Questões de Pesquisa (Research Questions – RQs)** foram associadas a métricas específicas, previamente definidas na seção de métricas (Seção 4.4), garantindo que a investigação seja **sistemática e mensurável**.  
 
-As **Questões de Pesquisa (Research Questions – RQs)** foram definidas com o objetivo de orientar a análise e direcionar a interpretação dos resultados.  
-Cada RQ está associada a uma ou mais métricas específicas, previamente definidas na seção de métricas (Seção 4.4).  
-
-Dessa forma, garante-se que a investigação seja **sistemática e mensurável**, permitindo responder de forma objetiva às hipóteses levantadas pelo grupo.  
 A tabela a seguir apresenta a relação entre cada questão de pesquisa e as métricas utilizadas para sua avaliação:
 
-**🔍 Questões de Pesquisa - Research Questions (RQs):**
+**🔍 Relação das RQs com Métricas:**
 
 | RQ   | Pergunta | Métrica utilizada | Código da Métrica |
 |------|----------|------------------|------------------|
