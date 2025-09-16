@@ -55,33 +55,7 @@ Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de 
 - Repositórios ordenados por pontuação composta ou por número de estrelas.
 - Análise inicial baseada em valores medianos e contagem de categorias.
 
----
-
-## 5. Questões de pesquisa
-
-Liste as questões de pesquisa que guiaram o estudo, com suas métricas associadas:
-
-**🔍 Questões de Pesquisa - Research Questions (RQs):**
-
-| RQ   | Pergunta | Métrica utilizada | Código da Métrica |
-|------|----------|-----------------|-----------------|
-| RQ01 | Sistemas populares são maduros/antigos? | 🕰 Idade do repositório (calculado a partir da data de criação) | LM01 |
-| RQ02 | Sistemas populares recebem muita contribuição externa? | ✅ Total de Pull Requests Aceitas | LM02 |
-| RQ03 | Sistemas populares lançam releases com frequência? | 📦 Total de Releases | LM03 |
-| RQ04 | Sistemas populares são atualizados com frequência? | ⏳ Tempo desde a última atualização (dias) | LM04 |
-| RQ05 | Sistemas populares são escritos nas linguagens mais populares? | 💻 Linguagem primária de cada repositório | AM01 |
-| RQ06 | Sistemas populares possuem um alto percentual de issues fechadas? | 📋 Razão entre número de issues fechadas pelo total de issues | LM05 |
-| RQ07 | Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência? | ✅ Pull Requests Aceitas, 📦 Número de Releases, ⏳ Tempo desde a Última Atualização, 💻 Linguagem primária | LM02, LM03, LM04, AM01 |
-
----
-
-## 6. Resultados
-
-Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
-
----
-
-### 6.1 Métricas
+### 4.6 Métricas
 
 Inclua métricas relevantes de repositórios do GitHub, separando **métricas do laboratório** e **métricas adicionais trazidas pelo grupo**:
 
@@ -107,9 +81,35 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 
 > Obs.: Adapte ou acrescente métricas conforme o seu dataset.
 
+### 4.7. Relação das questões de pesquisa com as métricas
+
+As **Questões de Pesquisa (Research Questions – RQs)** foram definidas com o objetivo de orientar a análise e direcionar a interpretação dos resultados.  
+Cada RQ está associada a uma ou mais métricas específicas, previamente definidas na seção de métricas (Seção 4.6).  
+
+Dessa forma, garante-se que a investigação seja **sistemática e mensurável**, permitindo responder de forma objetiva às hipóteses levantadas pelo grupo.  
+A tabela a seguir apresenta a relação entre cada questão de pesquisa e as métricas utilizadas para sua avaliação:
+
+**🔍 Questões de Pesquisa - Research Questions (RQs):**
+
+| RQ   | Pergunta | Métrica utilizada | Código da Métrica |
+|------|----------|-----------------|-----------------|
+| RQ01 | Sistemas populares são maduros/antigos? | 🕰 Idade do repositório (calculado a partir da data de criação) | LM01 |
+| RQ02 | Sistemas populares recebem muita contribuição externa? | ✅ Total de Pull Requests Aceitas | LM02 |
+| RQ03 | Sistemas populares lançam releases com frequência? | 📦 Total de Releases | LM03 |
+| RQ04 | Sistemas populares são atualizados com frequência? | ⏳ Tempo desde a última atualização (dias) | LM04 |
+| RQ05 | Sistemas populares são escritos nas linguagens mais populares? | 💻 Linguagem primária de cada repositório | AM01 |
+| RQ06 | Sistemas populares possuem um alto percentual de issues fechadas? | 📋 Razão entre número de issues fechadas pelo total de issues | LM05 |
+| RQ07 | Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência? | ✅ Pull Requests Aceitas, 📦 Número de Releases, ⏳ Tempo desde a Última Atualização, 💻 Linguagem primária | LM02, LM03, LM04, AM01 |
+
 ---
 
-### 6.2 Distribuição por categoria
+## 5. Resultados
+
+Apresente os resultados obtidos, com tabelas e gráficos sempre que possível.
+
+---
+
+### 5.1 Distribuição por categoria
 
 Para métricas categóricas, como linguagem de programação, faça contagens e tabelas de frequência:
 
@@ -122,7 +122,7 @@ Para métricas categóricas, como linguagem de programação, faça contagens e 
 
 ---
 
-### 6.3 Relação das RQs com as Métricas
+### 5.2 Relação das RQs com as Métricas
 
 | RQ   | Pergunta | Métrica utilizada | Código |
 |------|----------|-----------------|--------|
@@ -136,7 +136,7 @@ Para métricas categóricas, como linguagem de programação, faça contagens e 
 
 ---
 
-### 6.4 Sugestões de gráficos
+### 5.3 Sugestões de gráficos
 
 Para criar visualizações das métricas, recomenda-se utilizar como referência o projeto **Seaborn Samples**:  
 - 🔗 Repositório: [Projeto Seaborn Samples](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS/Projeto%20Seaborn%20Samples)
@@ -154,7 +154,9 @@ Para criar visualizações das métricas, recomenda-se utilizar como referência
 
 > 💡 Dica: combine tabelas e gráficos para facilitar a interpretação e evidenciar padrões nos dados.
 
-### 6.5 Estatísticas Descritivas
+---
+
+### 5.4 Estatísticas Descritivas
 
 Apresente as estatísticas descritivas das métricas analisadas, permitindo uma compreensão mais detalhada da distribuição dos dados.
 
@@ -173,7 +175,7 @@ Apresente as estatísticas descritivas das métricas analisadas, permitindo uma 
 
 ---
 
-## 7. Discussão
+### 5.5. Discussão dos resultados
 
 Nesta seção, compare os resultados obtidos com as hipóteses informais levantadas pelo grupo no início do experimento.
 
@@ -186,7 +188,7 @@ Nesta seção, compare os resultados obtidos com as hipóteses informais levanta
 
 ---
 
-## 8. Conclusão
+## 6. Conclusão
 
 Resumo das principais descobertas do laboratório.
 
@@ -208,7 +210,7 @@ Resumo das principais descobertas do laboratório.
 
 ---
 
-## 9. Referências
+## 7. Referências
 Liste as referências bibliográficas ou links utilizados.
 - [📌 GitHub API Documentation](https://docs.github.com/en/graphql)
 - [📌 CK Metrics Tool](https://ckjm.github.io/)
@@ -217,7 +219,7 @@ Liste as referências bibliográficas ou links utilizados.
 
 ---
 
-## 10. Apêndices
+## 8. Apêndices
 - 💾 Scripts utilizados para coleta e análise de dados.
 - 🔗 Consultas GraphQL ou endpoints REST.
 - 📊 Planilhas e arquivos CSV gerados.
