@@ -39,41 +39,42 @@ Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de 
 ---
 
 ### 4.1 Coleta de dados
-- Foram coletados dados de [X] repositórios utilizando a [GitHub API].
-- Critérios de seleção: [Ex.: top-1000 por número de estrelas, linguagem específica, etc.]
+- A coleta foi realizada utilizando a **GitHub API**, que fornece acesso estruturado a metadados de repositórios.  
+- Foram considerados [X] repositórios, selecionados a partir dos seguintes critérios:  
+  - **Popularidade** → ex.: repositórios com maior número de estrelas (top-N).  
+  - **Relevância por linguagem** → restrição a uma linguagem de programação específica.  
+  - **Atividade mínima** → presença de commits, issues ou releases nos últimos anos.  
+- Cada repositório retornou informações brutas como datas de criação e atualização, número de estrelas, forks, issues, releases e linguagem principal.  
 
 ---
 
 ### 4.2 Filtragem e paginação
-- Foi utilizada paginação da API devido ao grande volume de dados.
-- ⏱ Tempo médio de coleta: [XX minutos].
+- Devido ao limite de requisições da **GitHub API**, a coleta exigiu o uso de **paginação**, permitindo recuperar lotes sucessivos de dados sem perda de registros.  
+- Foram aplicados filtros para garantir consistência, tais como:  
+  - Exclusão de repositórios **arquivados ou descontinuados**.  
+  - Exclusão de repositórios **sem contribuições externas significativas**.  
+  - Tratamento de **valores nulos ou incompletos** em campos relevantes (ex.: releases ou issues).  
+- ⏱ O tempo médio estimado de coleta foi de aproximadamente **[XX minutos]** para o conjunto completo de repositórios.  
 
 ---
 
 ### 4.3 Normalização e pré-processamento
-- Os dados foram normalizados utilizando [ex.: min-max scaling] para garantir consistência.
+- Após a coleta, os dados foram organizados em um **banco/tabulação unificada**, estruturada por repositório.  
+- Foram aplicadas etapas de pré-processamento:  
+  - **Conversão de datas** para formato padronizado (ISO 8601) e cálculo de intervalos (ex.: idade em anos, tempo desde a última atualização em dias).  
+  - **Padronização de valores categóricos**, como o nome das linguagens, para evitar duplicação por variações (ex.: `C++` vs `C plus plus`).  
+  - **Normalização de escalas numéricas** (ex.: min-max scaling) quando necessário, de modo a possibilitar comparações equilibradas entre métricas de magnitudes distintas.  
+  - **Remoção de outliers inconsistentes**, como métricas com valor zero em repositórios aparentemente ativos.  
 
 ---
 
-### 4.4 Cálculo de métricas
-- Métricas de interesse: idade do repositório, número de pull requests aceitas, número de releases, tempo desde a última atualização, linguagem primária, percentual de issues fechadas.
-- Métricas compostas calculadas por meio de combinação linear ponderada de fatores relevantes.
-
----
-
-### 4.5 Ordenação e análise inicial
-- Repositórios ordenados por pontuação composta ou por número de estrelas.
-- Análise inicial baseada em valores medianos e contagem de categorias.
-
----
-
-### 4.6 Métricas
+### 4.4 Métricas
 
 Inclua métricas relevantes de repositórios do GitHub, separando **métricas do laboratório** e **métricas adicionais trazidas pelo grupo**:
 
 #### 📊 Métricas de Laboratório - Lab Metrics (LM)
 | Código | Métrica | Descrição |
-|--------|--------|-----------|
+|--------|---------|-----------|
 | LM01 | 🕰 Idade do Repositório (anos) | Tempo desde a criação do repositório até o momento atual, medido em anos. |
 | LM02 | ✅ Pull Requests Aceitas | Quantidade de pull requests que foram aceitas e incorporadas ao repositório. |
 | LM03 | 📦 Número de Releases | Total de versões ou releases oficiais publicadas no repositório. |
@@ -85,7 +86,7 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 
 #### 💡 Métricas adicionais trazidas pelo grupo - Additional Metrics (AM)
 | Código | Métrica | Descrição |
-|------|--------|------------|
+|--------|---------|-----------|
 | AM01 | 💻 Linguagem Primária | Linguagem de programação principal do repositório (ex.: Python, JavaScript, Java) |
 | AM02 | 🔗 Forks vs Pull Requests Aceitas | Relação entre número de forks e pull requests aceitas |
 | AM03 | 📈 Evolução Temporal | Evolução temporal de releases e pull requests aceitas |
@@ -95,10 +96,29 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 
 ---
 
+### 4.5 Cálculo de métricas
+- As métricas definidas na seção **4.4** foram obtidas a partir de dados brutos retornados pela **GitHub API**.  
+- Para cada métrica, foram aplicadas operações de transformação simples, tais como:  
+  - **Diferença de datas** → cálculo da idade do repositório e tempo desde a última atualização.  
+  - **Contagens absolutas** → número de pull requests aceitas, releases, forks e estrelas.  
+  - **Proporções** → percentual de issues fechadas em relação ao total.  
+  - **Identificação categórica** → linguagem primária de cada repositório.  
+- Em alguns casos, os valores foram agregados em séries temporais para observar **evolução ao longo do tempo** (ex.: releases e pull requests).  
+- Além das métricas individuais, foi proposto um **índice composto de popularidade**, calculado como uma **combinação linear ponderada** de métricas representativas (⭐ estrelas, 🍴 forks, 📦 releases, ✅ pull requests aceitas). Esse índice foi utilizado para ranqueamento complementar e comparação entre repositórios.  
+
+---
+
+### 4.6 Ordenação e análise inicial
+- Repositórios ordenados pelo **índice composto de popularidade** ou, alternativamente, pelo número de estrelas.  
+- A análise inicial foi conduzida a partir de **valores medianos, distribuições** e **contagem de categorias** (como linguagens e tipos de contribuições).  
+- Essa etapa teve como objetivo fornecer uma **visão exploratória** do dataset, identificando padrões gerais antes de análises mais detalhadas.  
+
+---
+
 ### 4.7. Relação das RQs com as Métricas
 
 As **Questões de Pesquisa (Research Questions – RQs)** foram definidas com o objetivo de orientar a análise e direcionar a interpretação dos resultados.  
-Cada RQ está associada a uma ou mais métricas específicas, previamente definidas na seção de métricas (Seção 4.6).  
+Cada RQ está associada a uma ou mais métricas específicas, previamente definidas na seção de métricas (Seção 4.4).  
 
 Dessa forma, garante-se que a investigação seja **sistemática e mensurável**, permitindo responder de forma objetiva às hipóteses levantadas pelo grupo.  
 A tabela a seguir apresenta a relação entre cada questão de pesquisa e as métricas utilizadas para sua avaliação:
@@ -106,7 +126,7 @@ A tabela a seguir apresenta a relação entre cada questão de pesquisa e as mé
 **🔍 Questões de Pesquisa - Research Questions (RQs):**
 
 | RQ   | Pergunta | Métrica utilizada | Código da Métrica |
-|------|----------|-----------------|-----------------|
+|------|----------|------------------|------------------|
 | RQ01 | Sistemas populares são maduros/antigos? | 🕰 Idade do repositório (calculado a partir da data de criação) | LM01 |
 | RQ02 | Sistemas populares recebem muita contribuição externa? | ✅ Total de Pull Requests Aceitas | LM02 |
 | RQ03 | Sistemas populares lançam releases com frequência? | 📦 Total de Releases | LM03 |
