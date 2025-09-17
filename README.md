@@ -244,8 +244,6 @@ Principais notícias e artigos que destacam práticas, métricas e estudos empí
 
 - [**Pragmatic Engineer Newsletter**](https://newsletter.pragmaticengineer.com/): Newsletter semanal com análises de práticas de engenharia de software, produtividade de equipes e experimentação em grandes empresas de tecnologia.
 
-- [**Coding Sans Newsletter**](https://codingsans.com/newsletter): Insights sobre cultura de engenharia de software, métricas de produtividade e práticas empíricas em times de desenvolvimento.
-
 - [**Software Lead Weekly**](https://softwareleadweekly.com/): Newsletter focada em liderança técnica, métricas de engenharia, experimentos de produtividade e práticas empíricas em desenvolvimento de software.
 
 - [**Engineering Manager Newsletter**](https://www.engmanager.co/newsletter): Conteúdo para gerentes e líderes de engenharia, incluindo estudos de caso e experimentação de processos de desenvolvimento.
@@ -259,8 +257,6 @@ Principais notícias e artigos que destacam práticas, métricas e estudos empí
 - [**Software Engineering Daily**](https://softwareengineeringdaily.com/): Podcast e newsletter com entrevistas e discussões sobre métricas, produtividade e experimentos em engenharia de software.
 
 - [**ACM Queue**](https://queue.acm.org/): Revista com artigos sobre engenharia de software, práticas experimentais, métricas e estudos de caso em empresas e projetos reais.
-
-- [**InfoQ Newsletter – Software Development**](https://www.infoq.com/newsletters/): Publicação focada em tendências, métricas e práticas experimentais em engenharia de software e desenvolvimento de sistemas.
 
 -----
 
