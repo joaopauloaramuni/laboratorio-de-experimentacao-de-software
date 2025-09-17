@@ -227,6 +227,52 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 -----
 
+##### 📰 Notícias
+
+###### 🗞️ Atualizações e novidades sobre experimentação em engenharia de software  
+Principais notícias e artigos que destacam práticas, métricas e estudos empíricos em engenharia de software em 2025.  
+
+- **September 16, 2025**  
+  [How tech companies measure the impact of AI on software development](https://newsletter.pragmaticengineer.com/p/how-tech-companies-measure-the-impact-of-ai)  
+  Artigo da Pragmatic Engineer que explora como empresas como GitHub, Google, Dropbox, Monzo e Atlassian avaliam a eficácia das ferramentas de IA para desenvolvedores.
+
+##### 🗞️ Newsletters e publicações sugeridas
+
+###### 🌍 Publicações e portais de referência global em engenharia de software e experimentação empírica  
+Seleção de newsletters e publicações que trazem análises, tendências, estudos de caso e insights sobre práticas de engenharia de software.
+
+- [**Pragmatic Engineer Newsletter**](https://newsletter.pragmaticengineer.com/)  
+  Newsletter semanal com análises profundas sobre práticas de engenharia de software em grandes empresas e startups, com foco em experimentação e adoção de novas tecnologias.
+
+- [**Software Testing Weekly**](https://softwaretestingweekly.com/)  
+  Newsletter semanal com as últimas notícias e tendências em testes de software, incluindo práticas de experimentação e avaliação de ferramentas.
+
+- [**Ministry of Testing Newsletter**](https://www.ministryoftesting.com/newsletter)  
+  Insights sobre práticas de teste de software, incluindo abordagens experimentais e comunitárias para melhorar a qualidade do software.
+
+- [**TestGuild Newsletter**](https://thectoclub.com/career/best-software-testing-newsletters/)  
+  Entrevistas com especialistas, dicas e tendências em automação de testes e práticas experimentais em engenharia de software.
+
+- [**Software Engineering Daily**](https://softwareengineeringdaily.com/)  
+  Podcast diário sobre tópicos relevantes para engenheiros de software, incluindo práticas de experimentação e inovação no desenvolvimento de software.
+
+- [**The Changelog**](https://changelog.com/)  
+  Podcast e newsletter sobre o mundo do código aberto, discutindo práticas de engenharia de software e experimentação em projetos colaborativos.
+
+- [**Smashing Magazine Newsletter**](https://www.smashingmagazine.com/the-smashing-newsletter/)  
+  Aborda design e desenvolvimento web, incluindo práticas experimentais para melhorar a experiência do usuário e a qualidade do software.
+
+- [**ACM Queue**](https://queue.acm.org/)  
+  Revista da ACM com artigos sobre engenharia de software, estudos de caso e práticas experimentais em desenvolvimento de software.
+
+- [**SIGSOFT Software Engineering Notes (SEN)**](https://www.sigsoft.org/SEN/)  
+  Newsletter da ACM SIGSOFT com artigos e relatórios sobre práticas de engenharia de software, incluindo abordagens experimentais.
+
+- [**Software Testing News**](https://thectoclub.com/career/best-software-testing-newsletters/)  
+  Notícias e atualizações sobre testes de software, incluindo tendências e práticas experimentais na área de qualidade de software.
+
+-----
+
 ##### 🛠️ IDEs e Ferramentas
 
 ###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
