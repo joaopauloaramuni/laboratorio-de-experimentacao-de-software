@@ -236,40 +236,31 @@ Principais notícias e artigos que destacam práticas, métricas e estudos empí
   [How tech companies measure the impact of AI on software development](https://newsletter.pragmaticengineer.com/p/how-tech-companies-measure-the-impact-of-ai)  
   Artigo da Pragmatic Engineer que explora como empresas como GitHub, Google, Dropbox, Monzo e Atlassian avaliam a eficácia das ferramentas de IA para desenvolvedores.
 
+-----
+
 ##### 🗞️ Newsletters e publicações sugeridas
 
 ###### 🌍 Publicações e portais de referência global em engenharia de software e experimentação empírica  
-Seleção de newsletters e publicações que trazem análises, tendências, estudos de caso e insights sobre práticas de engenharia de software.
 
-- [**Pragmatic Engineer Newsletter**](https://newsletter.pragmaticengineer.com/)  
-  Newsletter semanal com análises profundas sobre práticas de engenharia de software em grandes empresas e startups, com foco em experimentação e adoção de novas tecnologias.
+- [**Pragmatic Engineer Newsletter**](https://newsletter.pragmaticengineer.com/): Newsletter semanal com análises de práticas de engenharia de software, produtividade de equipes e experimentação em grandes empresas de tecnologia.
 
-- [**Software Testing Weekly**](https://softwaretestingweekly.com/)  
-  Newsletter semanal com as últimas notícias e tendências em testes de software, incluindo práticas de experimentação e avaliação de ferramentas.
+- [**Coding Sans Newsletter**](https://codingsans.com/newsletter): Insights sobre cultura de engenharia de software, métricas de produtividade e práticas empíricas em times de desenvolvimento.
 
-- [**Ministry of Testing Newsletter**](https://www.ministryoftesting.com/newsletter)  
-  Insights sobre práticas de teste de software, incluindo abordagens experimentais e comunitárias para melhorar a qualidade do software.
+- [**Software Lead Weekly**](https://softwareleadweekly.com/): Newsletter focada em liderança técnica, métricas de engenharia, experimentos de produtividade e práticas empíricas em desenvolvimento de software.
 
-- [**TestGuild Newsletter**](https://thectoclub.com/career/best-software-testing-newsletters/)  
-  Entrevistas com especialistas, dicas e tendências em automação de testes e práticas experimentais em engenharia de software.
+- [**Engineering Manager Newsletter**](https://www.engmanager.co/newsletter): Conteúdo para gerentes e líderes de engenharia, incluindo estudos de caso e experimentação de processos de desenvolvimento.
 
-- [**Software Engineering Daily**](https://softwareengineeringdaily.com/)  
-  Podcast diário sobre tópicos relevantes para engenheiros de software, incluindo práticas de experimentação e inovação no desenvolvimento de software.
+- [**CTO Craft Newsletter**](https://www.ctocraft.com/): Insights de CTOs sobre métricas, experimentação, decisões técnicas e engenharia de software empírica em grandes empresas.
 
-- [**The Changelog**](https://changelog.com/)  
-  Podcast e newsletter sobre o mundo do código aberto, discutindo práticas de engenharia de software e experimentação em projetos colaborativos.
+- [**Rands in Repose**](https://randsinrepose.com/): Blog e newsletter sobre gestão de engenharia, práticas de desenvolvimento, processos e experimentação organizacional em software.
 
-- [**Smashing Magazine Newsletter**](https://www.smashingmagazine.com/the-smashing-newsletter/)  
-  Aborda design e desenvolvimento web, incluindo práticas experimentais para melhorar a experiência do usuário e a qualidade do software.
+- [**LeadDev Newsletter**](https://www.leaddev.com/newsletter): Newsletter sobre liderança de engenharia, produtividade de times e experiências empíricas em projetos de software.
 
-- [**ACM Queue**](https://queue.acm.org/)  
-  Revista da ACM com artigos sobre engenharia de software, estudos de caso e práticas experimentais em desenvolvimento de software.
+- [**Software Engineering Daily**](https://softwareengineeringdaily.com/): Podcast e newsletter com entrevistas e discussões sobre métricas, produtividade e experimentos em engenharia de software.
 
-- [**SIGSOFT Software Engineering Notes (SEN)**](https://www.sigsoft.org/SEN/)  
-  Newsletter da ACM SIGSOFT com artigos e relatórios sobre práticas de engenharia de software, incluindo abordagens experimentais.
+- [**ACM Queue**](https://queue.acm.org/): Revista com artigos sobre engenharia de software, práticas experimentais, métricas e estudos de caso em empresas e projetos reais.
 
-- [**Software Testing News**](https://thectoclub.com/career/best-software-testing-newsletters/)  
-  Notícias e atualizações sobre testes de software, incluindo tendências e práticas experimentais na área de qualidade de software.
+- [**InfoQ Newsletter – Software Development**](https://www.infoq.com/newsletters/): Publicação focada em tendências, métricas e práticas experimentais em engenharia de software e desenvolvimento de sistemas.
 
 -----
 
