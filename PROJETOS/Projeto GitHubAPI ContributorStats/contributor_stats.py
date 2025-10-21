@@ -3,6 +3,7 @@ import csv
 import sys
 import time
 from urllib.parse import urlparse
+from datetime import datetime
 
 # --- Configuração ---
 # Seu Token de Acesso Pessoal (PAT) do GitHub.
@@ -21,6 +22,7 @@ HEADERS = {
 # 1. Funções de Utilitário e API
 # --------------------------------------------------------------------------------------
 
+# --- Extrai o dono (owner) e o nome do repositório a partir da URL ---
 def parse_repo_url(repo_url: str) -> tuple[str, str] | None:
     """
     Extrai o dono (owner) e o nome do repositório (repo_name) de uma URL do GitHub.
@@ -39,6 +41,7 @@ def parse_repo_url(repo_url: str) -> tuple[str, str] | None:
         print(f"ERRO ao analisar a URL: {e}")
         return None
 
+# --- Busca estatísticas de contribuição do repositório via API do GitHub ---
 def fetch_contributors_stats(owner: str, repo_name: str) -> list | None:
     """
     Busca as estatísticas de contribuição do repositório usando a API do GitHub.
@@ -87,33 +90,51 @@ def fetch_contributors_stats(owner: str, repo_name: str) -> list | None:
 # 2. Funções de Análise e Geração de Saída
 # --------------------------------------------------------------------------------------
 
-def generate_ranking(contributors_data: list) -> list:
+# --- Busca a data exata do último commit de um usuário no repositório ---
+def fetch_last_commit_date(owner: str, repo_name: str, username: str) -> str:
+    """
+    Retorna a data do último commit de um usuário no repositório, no formato DD/MM/YYYY.
+    """
+    url = f"{GITHUB_API_BASE}/repos/{owner}/{repo_name}/commits?author={username}&per_page=1"
+    response = requests.get(url, headers=HEADERS)
+    
+    if response.status_code == 200 and response.json():
+        commit_data = response.json()[0]
+        date_str = commit_data['commit']['committer']['date']  # ex: '2025-09-30T15:23:45Z'
+        date_obj = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        return date_obj.strftime('%d/%m/%Y')
+    
+    return "N/A"
+
+
+# --- Processa dados brutos da API e gera um ranking de contribuições ---
+def generate_ranking(contributors_data: list, owner: str, repo_name: str) -> list:
     """
     Processa os dados brutos da API para criar um ranking ordenado e sumarizado.
-    Métricas consideradas: total de commits, adições (linhas inseridas) e deleções.
+    Métricas consideradas: total de commits, adições (linhas inseridas), deleções e data do último commit.
     """
     ranking = []
     
     for contributor in contributors_data:
-        # Pega as informações do usuário
         username = contributor['author']['login']
         user_profile_url = contributor['author']['html_url']
         
-        # O total de 'weeks' contém a soma total de commits, adições e deleções
         total_commits = contributor['total']
         total_additions = sum(week['a'] for week in contributor['weeks'])
         total_deletions = sum(week['d'] for week in contributor['weeks'])
-        
-        # Calcula o impacto líquido das linhas
         net_impact = total_additions - total_deletions
 
+        # Busca a data exata do último commit
+        last_commit_date = fetch_last_commit_date(owner, repo_name, username)
+        
         ranking.append({
             'Nome de Usuário': username,
             'URL Perfil': user_profile_url,
             'Commits Totais': total_commits,
             'Linhas Inseridas': total_additions,
             'Linhas Deletadas': total_deletions,
-            'Impacto Líquido (Ins - Del)': net_impact
+            'Impacto Líquido (Ins - Del)': net_impact,
+            'Último Commit': last_commit_date
         })
 
     # Ordena o ranking usando o número de commits como métrica principal e o impacto líquido como desempate.
@@ -124,6 +145,8 @@ def generate_ranking(contributors_data: list) -> list:
 
     return ranking
 
+
+# --- Exporta o ranking de contribuições para um arquivo CSV ---
 def export_to_csv(ranking: list, repo_name: str):
     """
     Exporta o ranking de contribuições para um arquivo CSV.
@@ -154,6 +177,7 @@ def export_to_csv(ranking: list, repo_name: str):
 # 3. Função Principal
 # --------------------------------------------------------------------------------------
 
+# --- Orquestra todo o fluxo: análise de contribuições e exportação ---
 def main(repo_url: str):
     """
     Função principal que orquestra a análise de contribuições.
@@ -177,7 +201,7 @@ def main(repo_url: str):
         sys.exit(1)
         
     # 4. Gera o Ranking
-    ranking = generate_ranking(data)
+    ranking = generate_ranking(data, owner, repo_name)
     
     # 5. Exporta para CSV
     export_to_csv(ranking, repo_name)
@@ -186,7 +210,11 @@ def main(repo_url: str):
     print("\n--- TOP 10 Contribuidores (Console) ---")
     for i, contributor in enumerate(ranking[:10]):
         print(f"{i+1}. {contributor['Nome de Usuário']} ({contributor['URL Perfil']})")
-        print(f"   -> Commits: {contributor['Commits Totais']} | Inseridas: {contributor['Linhas Inseridas']} | Deletadas: {contributor['Linhas Deletadas']} | Impacto Líquido: {contributor['Impacto Líquido (Ins - Del)']}")
+        print(f"   -> Commits: {contributor['Commits Totais']} | "
+            f"Inseridas: {contributor['Linhas Inseridas']} | "
+            f"Deletadas: {contributor['Linhas Deletadas']} | "
+            f"Impacto Líquido: {contributor['Impacto Líquido (Ins - Del)']} | "
+            f"Último Commit: {contributor['Último Commit']}")
 
 # --------------------------------------------------------------------------------------
 # Execução
@@ -194,7 +222,7 @@ def main(repo_url: str):
 
 if __name__ == "__main__":
     # URL do repositório
-    repo_to_analyze = "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti3-9577100-repoexemplo"
+    repo_to_analyze = "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti3-9577100-casadosdiscipulos"
     
     # Caso o usuário queira passar a URL como argumento de linha de comando
     if len(sys.argv) > 1:
