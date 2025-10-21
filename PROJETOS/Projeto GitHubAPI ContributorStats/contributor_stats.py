@@ -222,7 +222,7 @@ def main(repo_url: str):
 
 if __name__ == "__main__":
     # URL do repositório
-    repo_to_analyze = "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti3-9577100-casadosdiscipulos"
+    repo_to_analyze = "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti3-9577100-repoexemplo"
     
     # Caso o usuário queira passar a URL como argumento de linha de comando
     if len(sys.argv) > 1:
