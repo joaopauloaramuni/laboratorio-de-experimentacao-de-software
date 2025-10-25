@@ -21,9 +21,9 @@ Este projeto foi criado com fins educacionais, para que estudantes e profissiona
 
 ## 🖼️ Gráficos gerados
 
-| ![histogramas](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/histogramas.png) | ![dispersao](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/dispersao.png) | ![spearman\_heatmap](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/spearman_heatmap.png) | ![interpolacao](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/interpolacao.png) | ![fft\_sinal](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/fft_sinal.png) | ![fft\_espectro](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/fft_espectro.png) |
-| :----------------------------------: | :------------------------------: | :---------------------------------------------: | :------------------------------------: | :-------------------------------: | :-------------------------------------: |
-|            histogramas.png           |           dispersao.png          |               spearman_heatmap.png              |            interpolacao.png            |           fft_sinal.png           |             fft_espectro.png            |
+| ![histogramas](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/histogramas.png) | ![dispersao](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/dispersao.png) | ![spearman_heatmap](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/spearman_heatmap.png) | ![interpolacao](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/interpolacao.png) | ![fft](https://joaopauloaramuni.github.io/python-imgs/SciPySamples/imgs/fft.png) |
+| :----------------------------------: | :------------------------------: | :---------------------------------------------: | :------------------------------------: | :-------------------------------: |
+|            histogramas.png           |           dispersao.png          |               spearman_heatmap.png              |            interpolacao.png            |               fft.png             |
 
 ---
 
