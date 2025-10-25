@@ -31,6 +31,8 @@ As **Questões de Pesquisa** foram definidas para guiar a investigação e estru
 ### 2.2. Hipóteses Informais (Informal Hypotheses – IH)
 As **Hipóteses Informais** foram elaboradas a partir das RQs, estabelecendo expectativas sobre os resultados esperados do estudo:
 
+💡 **Sugestão:** antes de formular suas hipóteses, é recomendável consultar relatórios empíricos da indústria, como o [2025 Software Engineering Benchmarks Report – LinearB](https://linearb.io/resources/software-engineering-benchmarks-report), que apresentam métricas e padrões de repositórios e equipes de alto desempenho. Isso pode ajudar a fundamentar suas suposições com dados reais.  
+
 **💡 Hipóteses Informais - Informal Hypotheses (IH):**
 
 | IH   | Descrição |
