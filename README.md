@@ -232,6 +232,9 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 - 📈 [2025 Software Engineering Benchmarks Report – LinearB](https://linearb.io/resources/software-engineering-benchmarks-report)  
   Relatório anual da LinearB que apresenta métricas e benchmarks baseados em dados empíricos coletados de milhares de equipes de engenharia de software. Fornece insights sobre produtividade, fluxo de desenvolvimento e práticas de alto desempenho, permitindo comparar times e identificar oportunidades de melhoria.
 
+- 🧭 [The State of Software Engineering Excellence 2025 – Harness](https://www.harness.io/the-state-of-software-engineering-excellence)  
+  Relatório global da Harness que analisa o estado da excelência em engenharia de software em 2025. Apresenta métricas de eficiência, qualidade e automação em pipelines de entrega, destacando práticas de elite em CI/CD, DevOps, confiabilidade e cultura de engenharia de alto desempenho.
+
 -----
 
 ##### 📰 Notícias
