@@ -227,7 +227,7 @@ Além dos estudos focados na linguagem Python, é fundamental explorar abordagen
 
 -----
 
-###### 📊 Relatórios e benchmarks da indústria
+##### 📊 Relatórios e benchmarks da indústria
 
 - 📈 [2025 Software Engineering Benchmarks Report – LinearB](https://linearb.io/resources/software-engineering-benchmarks-report)  
   Relatório anual da LinearB que apresenta métricas e benchmarks baseados em dados empíricos coletados de milhares de equipes de engenharia de software. Fornece insights sobre produtividade, fluxo de desenvolvimento e práticas de alto desempenho, permitindo comparar times e identificar oportunidades de melhoria.
