@@ -22,6 +22,9 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Cronograma](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/CRONOGRAMA)
 - [Laboratórios](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/LABORATORIOS)
 - [Templates](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/TEMPLATES)
+  - [Template de Relatório Técnico de Laboratório](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/TEMPLATES/template_report.md)
+  - [Template de artigo da SBC Conference](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/TEMPLATES/SBC_Conferences_Template__3_.zip)
+    - *Usado em TIS 6 - Trabalho Interdisciplinar VI: Pesquisa em Engenharia de Software e também no Laboratório 04 de LES - Laboratório de Experimentação de Software*
 - [Projetos em Python](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PROJETOS)
 - [Plano de Ensino](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/PLANO%20DE%20ENSINO)
 
