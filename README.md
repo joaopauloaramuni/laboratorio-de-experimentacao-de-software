@@ -23,6 +23,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Laboratórios](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/LABORATORIOS)
 - [Templates](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/tree/main/TEMPLATES)
   - [Template de Relatório Técnico de Laboratório](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/TEMPLATES/template_report.md)
+    - *Usado para os laboratórios, entregue ao final de cada Sprint 03.*
   - [Template de artigo da SBC Conference](https://github.com/joaopauloaramuni/laboratorio-de-experimentacao-de-software/blob/main/TEMPLATES/SBC_Conferences_Template__3_.zip)
     - *Usado em TIS 6 - Trabalho Interdisciplinar VI: Pesquisa em Engenharia de Software e também no Laboratório 04 de LES - Laboratório de Experimentação de Software.*
     - *SBC Conference: Conferência da Sociedade Brasileira de Computação, voltada para a divulgação de pesquisas na área de ciência da computação e engenharia de software.*
