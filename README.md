@@ -391,6 +391,17 @@ Openpyxl é uma biblioteca em Python que permite ler, criar e modificar arquivos
 
 -----
 
+##### 🌊 Desenvolvimento de aplicações interativas com Python
+
+###### 🚀 Streamlit: prototipagem rápida e dashboards  
+O Streamlit permite criar aplicações interativas, como dashboards para análise de dados, visualizações de modelos de machine learning e protótipos de APIs ou serviços web com interface gráfica, de forma simples e rápida. É ideal para aprendizado de máquina, visualização de dados e demonstração de projetos em Python.
+
+- [📖 Documentação oficial - Streamlit](https://docs.streamlit.io/)  
+- [🎨 Gallery - Exemplos de apps](https://streamlit.io/gallery)  
+- [🐍 Streamlit Cloud - Hospedagem gratuita](https://streamlit.io/cloud)  
+
+-----
+
 ##### 📈 Ferramentas de Visualização e Storytelling com Dados
 
 ###### 📈 Data to Viz - Guia de escolha de gráficos
