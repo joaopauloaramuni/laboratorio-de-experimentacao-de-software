@@ -118,7 +118,8 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 | AM03 | 📈 Evolução Temporal | Evolução temporal de releases e pull requests aceitas |
 | AM04 | 🌟 Big Numbers | Métricas com valores expressivos (commits, branches, stars, releases) |
 
-> Obs.: Adapte ou acrescente métricas conforme o seu dataset.
+> [!NOTE]
+> Adapte ou acrescente métricas conforme o seu dataset.
 
 ---
 
