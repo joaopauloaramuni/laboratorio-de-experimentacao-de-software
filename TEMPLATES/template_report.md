@@ -58,7 +58,9 @@ As **Hipóteses Informais** foram elaboradas a partir das RQs, estabelecendo exp
 ---
 
 ## 4. Metodologia
-Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de dados, filtragem, normalização, análise e visualização.
+
+> [!IMPORTANT]
+> Descreva detalhadamente as etapas do experimento ou estudo, incluindo coleta de dados, filtragem, normalização, análise e visualização.
 
 ---
 
