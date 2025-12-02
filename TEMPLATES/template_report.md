@@ -142,7 +142,9 @@ Inclua métricas relevantes de repositórios do GitHub, separando **métricas do
 ---
 
 ### 4.7. Relação das RQs com as Métricas
-As **Questões de Pesquisa (Research Questions – RQs)** foram associadas a métricas específicas, previamente definidas na seção de métricas (Seção 4.4), garantindo que a investigação seja **sistemática e mensurável**.  
+
+> [!NOTE]
+> As **Questões de Pesquisa (Research Questions – RQs)** foram associadas a métricas específicas, previamente definidas na seção de métricas (Seção 4.4), garantindo que a investigação seja **sistemática e mensurável**.  
 
 A tabela a seguir apresenta a relação entre cada questão de pesquisa e as métricas utilizadas para sua avaliação:
 
