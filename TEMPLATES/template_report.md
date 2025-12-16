@@ -177,7 +177,7 @@ Para métricas categóricas, como linguagem de programação, faça contagens e 
 |---------------|------------------------|
 | 🐍 Python     | 350                    |
 | 💻 JavaScript | 300                    |
-| ☕ Java        | 200                    |
+| ☕ Java       | 200                    |
 | 📦 Outros     | 150                    |
 
 ---
@@ -235,7 +235,61 @@ Nesta seção, compare os resultados obtidos com as hipóteses informais levanta
 
 ---
 
-## 6. Conclusão
+## 6. Ameaças à Validade
+
+Esta seção apresenta as principais ameaças à validade do estudo, bem como as medidas adotadas para mitigar seus efeitos. A análise foi organizada em validade de construção, interna, externa e de conclusão.
+
+---
+
+### 🧩 6.1 Validade de Construção
+
+**Ameaças:**  
+- Métricas como estrelas, forks e pull requests podem não refletir completamente a maturidade ou qualidade dos repositórios.  
+- A linguagem primária pode não representar todo o ecossistema tecnológico do projeto.
+
+**Medidas mitigatórias:**  
+- Uso de múltiplas métricas para reduzir dependência de um único indicador.  
+- Análise conjunta das métricas e interpretação cuidadosa dos resultados.
+
+---
+
+### ⚙️ 6.2 Validade Interna
+
+**Ameaças:**  
+- Limitações da GitHub API, como paginação, rate limit e possíveis dados incompletos.  
+- Erros durante filtragem, normalização ou remoção de outliers.
+
+**Medidas mitigatórias:**  
+- Implementação de paginação adequada e validação dos dados coletados.  
+- Documentação clara dos critérios de limpeza e pré-processamento.
+
+---
+
+### 🌍 6.3 Validade Externa
+
+**Ameaças:**  
+- Análise restrita a repositórios públicos e populares do GitHub.  
+- Resultados podem não representar projetos menos conhecidos ou privados.
+
+**Medidas mitigatórias:**  
+- Definição explícita dos critérios de seleção.  
+- Evitar generalizações além do contexto analisado.
+
+---
+
+### 📊 6.4 Validade de Conclusão
+
+**Ameaças:**  
+- Uso predominante de estatísticas descritivas limita inferências causais.  
+- Outliers podem influenciar médias e correlações.
+
+**Medidas mitigatórias:**  
+- Uso de mediana, boxplots e análise visual.  
+- Interpretação dos resultados focada em padrões e associações, não causalidade.
+
+---
+
+## 7. Conclusão
 
 Resumo das principais descobertas do laboratório.
 
@@ -257,7 +311,7 @@ Resumo das principais descobertas do laboratório.
 
 ---
 
-## 7. Referências
+## 8. Referências
 Liste as referências bibliográficas ou links utilizados.
 - [📌 GitHub API Documentation](https://docs.github.com/en/graphql)
 - [📌 CK Metrics Tool](https://ckjm.github.io/)
@@ -266,7 +320,7 @@ Liste as referências bibliográficas ou links utilizados.
 
 ---
 
-## 8. Apêndices
+## 9. Apêndices
 - 💾 Scripts utilizados para coleta e análise de dados.
 - 🔗 Consultas GraphQL ou endpoints REST.
 - 📊 Planilhas e arquivos CSV gerados.
